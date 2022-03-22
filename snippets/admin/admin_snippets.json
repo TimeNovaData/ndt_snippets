@@ -1,0 +1,75 @@
+{
+  "Um arquivo admin no padrão da Nova Data": {
+    "prefix": "admin_nova_data",
+    "body": [
+      "from django.contrib import admin\n",
+      "from ..models import ${1:NomeDaSuaModel}\n\n",
+
+      "@admin.register(${1:NomeDaSuaModel})",
+      "class ${1:NomeDaSuaModel}Admin(admin.ModelAdmin):",
+      "\tlist_display = [",
+      "\t\t'id',",
+      "\t\t'${2:campos_importantes}",
+      "\t]\n",
+
+      "\tsearch_fields = [",
+      "\t\t'id',",
+      "\t\t'${2:campos_importantes}",
+      "\t]\n",
+
+      "\tlist_filter = [",
+      "\t\t'${3:campos_fk_e_booleanos}",
+      "\t]\n",
+
+      "\tautocomplete_fields = [",
+      "\t\t'${4:campos_fk}",
+      "\t]\n"
+    ],
+    "description": "Um arquivo admin no padrão da Nova Data"
+  },
+
+  "Tabular inline no padrão da Nova Data": {
+    "prefix": "tabular_inline_nova_data",
+    "body": [
+      "from django.contrib import admin\n",
+
+      "from ..models import ${1:NomeDaSuaModel}\n\n",
+
+      "class ${1:NomeDaSuaModel}Inline(admin.TabularInline):",
+      "\tmodel = ${1:NomeDaSuaModel}\n",
+
+      "\textra = 0\n"
+    ],
+    "description": "Tabular inline no padrão da Nova Data"
+  },
+
+  "Stacked inline no padrão da Nova Data": {
+    "prefix": "stacked_inline_nova_data",
+    "body": [
+      "from django.contrib import admin\n",
+
+      "from ..models import ${1:NomeDaSuaModel}\n\n",
+
+      "class ${1:NomeDaSuaModel}Inline(admin.StackedInline):",
+      "\tmodel = ${1:NomeDaSuaModel}\n",
+
+      "\textra = 0\n"
+    ],
+    "description": "Stacked inline no padrão da Nova Data"
+  },
+
+  "Fieldsets no padrão da Nova Data": {
+    "prefix": "fieldsets_nova_data",
+    "body": [
+      "fieldsets = [",
+      "\t('Dados principais', {'fields': [",
+      "\t\t'$1'",
+      "\t]}),",
+      "\t('$2', {'fields': [",
+      "\t\t'$3'",
+      "\t]}),",
+      "]"
+    ],
+    "description": "Fieldsets no padrão da Nova Data"
+  }
+}

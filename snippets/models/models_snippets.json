@@ -1,0 +1,81 @@
+{
+  "Uma model no padrão da Nova Data": {
+    "prefix": "model_nova_data",
+    "body": [
+      "from django.db import models\n\n",
+
+      "class ${1:NomeDaSuaModel}(models.Model):",
+      "\t'''",
+      "\tA classe ${1:NomeDaSuaModel} serve para armazernar os(as) ${2:nome da sua model} do sistema.",
+      "\tAlém de fazer as implementações relacionadas a um único objeto do tipo ${1:NomeDaSuaModel}.",
+      "\t'''\n",
+
+      "\tnome = models.CharField(",
+      "\t\tverbose_name='Nome',",
+      "\t\tmax_length=100",
+      "\t)\n",
+
+      "\tdef __str__(self):",
+      "\t\treturn self.nome\n",
+
+      "\tclass Meta:",
+      "\t\tapp_label = '${4:nome_app}'",
+      "\t\tverbose_name = '${5:Nome da sua model no singular}'",
+      "\t\tverbose_name_plural = '${6:Nome da sua model no plural}'\n"
+    ],
+    "description": "Uma model no padrão da Nova Data"
+  },
+
+  "Campo data de criação no padrão da Nova Data": {
+    "prefix": "data_criacao_nova_data",
+    "body": [
+      "data_criacao = models.DateTimeField(",
+      "\tverbose_name='Data de criação',",
+      "\tauto_now_add=True",
+      ")\n\n"
+    ],
+    "description": "Campo data de criação no padrão da Nova Data"
+  },
+
+  "Campo data de atualização no padrão da Nova Data": {
+    "prefix": "data_atualizacao_nova_data",
+    "body": [
+      "data_atualizacao = models.DateTimeField(",
+      "\tverbose_name='Data de atualização',",
+      "\tauto_now=True",
+      ")\n\n"
+    ],
+    "description": "Campo data de atualização no padrão da Nova Data"
+  },
+
+  "Campos data criação e atualização no padrão da Nova Data": {
+    "prefix": "data_criacao_atualizacao_nova_data",
+    "body": [
+      "data_criacao = models.DateTimeField(",
+      "\tverbose_name='Data de criação',",
+      "\tauto_now_add=True",
+      ")\n",
+
+      "data_atualizacao = models.DateTimeField(",
+      "\tverbose_name='Data de atualização',",
+      "\tauto_now=True",
+      ")\n\n"
+    ],
+    "description": "Campos data criação e atualização no padrão da Nova Data"
+  },
+
+  "Função save no padrão da Nova Data": {
+    "prefix": "save_criacao_atualizacao_nova_data",
+    "body": [
+      "def save(self, *args, **kwargs):",
+      "\tuser = get_current_user()",
+      "\tif user and not user.pk:",
+      "\t\tuser = None",
+      "\tif not self.pk:",
+      "\t\tself.usuario_criacao = user",
+      "\tself.usuario_atualizacao = user\n",
+      "\tsuper(${1:NomeDaSuaModel}, self).save(*args, **kwargs)\n"
+    ],
+    "description": "Função save no padrão da Nova Data"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Um signal post_save no padrão da Nova Data": {
+    "prefix": "signal_post_save_nova_data",
+    "body": [
+      "from django.db.models.signals import post_save",
+      "from django.dispatch import receiver\n",
+
+      "from ..models import ${1:NomeDaSuaModel}\n\n",
+
+      "@receiver(post_save, sender=${1:NomeDaSuaModel})",
+      "def ${2:nome_do_seu_signal}(sender, instance, created, **kwargs):",
+      "\tif created:",
+      "\t\tinstance.${3:nome_da_sua_funcao}()\n"
+    ],
+    "description": "Um signal post_save no padrão da Nova Data"
+  }
+}

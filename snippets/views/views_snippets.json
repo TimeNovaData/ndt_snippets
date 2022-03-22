@@ -1,0 +1,20 @@
+{
+  "Uma view no padrão da Nova Data": {
+    "prefix": "view_nova_data",
+    "body": [
+      "from django.contrib.auth.decorators import login_required",
+      "from django.shortcuts import render\n\n",
+
+      "@login_required",
+      "def ${1:nome_view}(request):",
+      "\tcontext = {}\n",
+
+      "\treturn render(",
+      "\t\trequest,",
+      "\t\t'${2:caminho/para/o/template}.html',",
+      "\t\tcontext",
+      "\t)\n"
+    ],
+    "description": "Uma view no padrão da Nova Data"
+  }
+}
