@@ -71,5 +71,16 @@
       "]"
     ],
     "description": "Fieldsets no padrão da Nova Data"
+  },
+
+  "Função get_readonly_fields no padrão da Nova Data": {
+    "prefix": "get_readonly_fields_nova_data",
+    "body": [
+        "def get_readonly_fields(self, request, obj=None):",
+        "\tlista_fields = []\n",
+        "\t${1:Sua lógica aqui}\n",
+        "\treturn lista_fields"
+    ],
+    "description": "Função get_readonly_fields no padrão da Nova Data"
   }
 }
