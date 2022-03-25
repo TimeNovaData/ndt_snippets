@@ -77,5 +77,15 @@
       "\tsuper(${1:NomeDaSuaModel}, self).save(*args, **kwargs)\n"
     ],
     "description": "Função save no padrão da Nova Data"
+  },
+
+  "CHOICES field no padrão da Nova Data": {
+    "prefix": "choices_nova_data",
+    "body": [
+      "${1:NOME_CHOICES} = (",
+      "\t('${2:Nome da opção}', '${2:Nome da opção}'),",
+      ")\n"
+    ],
+    "description": "CHOICES field no padrão da Nova Data"
   }
 }
