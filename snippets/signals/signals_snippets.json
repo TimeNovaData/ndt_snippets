@@ -1,5 +1,5 @@
 {
-  "Um signal post_save no padrão da Nova Data": {
+  "Um signal post_save": {
     "prefix": "signal_post_save_nova_data",
     "body": [
       "from django.db.models.signals import post_save",
@@ -12,6 +12,6 @@
       "\tif created:",
       "\t\tinstance.${3:nome_da_sua_funcao}()\n"
     ],
-    "description": "Um signal post_save no padrão da Nova Data"
+    "description": "Um signal post_save"
   }
 }

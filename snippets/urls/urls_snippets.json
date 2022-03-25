@@ -1,5 +1,5 @@
 {
-  "Um urls.py no padrão da Nova Data": {
+  "Um urls.py": {
     "prefix": "urls_nova_data",
     "body": [
       "from django.urls import path\n",
@@ -8,26 +8,26 @@
       "\t${1:Escreva 'path_simples_nova_data' ou 'path_classe_nova_data'}",
       "]\n"
     ],
-    "description": "Um urls.py no padrão da Nova Data"
+    "description": "Um urls.py"
   },
 
-  "Um path simples no padrão da Nova Data": {
+  "Um path simples": {
     "prefix": "path_simples_nova_data",
     "body": ["path('${1:nome-view}/', ${2:nome_view}, name='${2:nome_view}'),"],
-    "description": "Um path simples no padrão da Nova Data"
+    "description": "Um path simples"
   },
 
-  "Um path com classe no padrão da Nova Data": {
+  "Um path com classe": {
     "prefix": "path_classe_nova_data",
     "body": [
       "path('${1:nome-url}/', ${2:nome_view}.as_view(), name='${2:nome_view}'),"
     ],
-    "description": "Um path com classe no padrão da Nova Data"
+    "description": "Um path com classe"
   },
 
-  "Um path com include no padrão da Nova Data": {
+  "Um path com include": {
     "prefix": "path_include_nova_data",
     "body": ["path('${1:nome-app}/', include('${2:nome_app}.urls')),"],
-    "description": "Um path com include no padrão da Nova Data"
+    "description": "Um path com include"
   }
 }

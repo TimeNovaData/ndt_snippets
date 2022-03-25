@@ -1,5 +1,5 @@
 {
-  "Uma model no padrão da Nova Data": {
+  "Uma model": {
     "prefix": "model_nova_data",
     "body": [
       "from django.db import models\n\n",
@@ -23,10 +23,10 @@
       "\t\tverbose_name = '${5:Nome da sua model no singular}'",
       "\t\tverbose_name_plural = '${6:Nome da sua model no plural}'\n"
     ],
-    "description": "Uma model no padrão da Nova Data"
+    "description": "Uma model"
   },
 
-  "Campo data de criação no padrão da Nova Data": {
+  "Campo data de criação": {
     "prefix": "data_criacao_nova_data",
     "body": [
       "data_criacao = models.DateTimeField(",
@@ -34,10 +34,10 @@
       "\tauto_now_add=True",
       ")\n\n"
     ],
-    "description": "Campo data de criação no padrão da Nova Data"
+    "description": "Campo data de criação"
   },
 
-  "Campo data de atualização no padrão da Nova Data": {
+  "Campo data de atualização": {
     "prefix": "data_atualizacao_nova_data",
     "body": [
       "data_atualizacao = models.DateTimeField(",
@@ -45,10 +45,10 @@
       "\tauto_now=True",
       ")\n\n"
     ],
-    "description": "Campo data de atualização no padrão da Nova Data"
+    "description": "Campo data de atualização"
   },
 
-  "Campos data criação e atualização no padrão da Nova Data": {
+  "Campos data criação e atualização": {
     "prefix": "data_criacao_atualizacao_nova_data",
     "body": [
       "data_criacao = models.DateTimeField(",
@@ -61,10 +61,10 @@
       "\tauto_now=True",
       ")\n\n"
     ],
-    "description": "Campos data criação e atualização no padrão da Nova Data"
+    "description": "Campos data criação e atualização"
   },
 
-  "Função save no padrão da Nova Data": {
+  "Função save": {
     "prefix": "save_criacao_atualizacao_nova_data",
     "body": [
       "def save(self, *args, **kwargs):",
@@ -76,16 +76,16 @@
       "\tself.usuario_atualizacao = user\n",
       "\tsuper(${1:NomeDaSuaModel}, self).save(*args, **kwargs)\n"
     ],
-    "description": "Função save no padrão da Nova Data"
+    "description": "Função save"
   },
 
-  "CHOICES field no padrão da Nova Data": {
+  "CHOICES field": {
     "prefix": "choices_nova_data",
     "body": [
       "${1:NOME_CHOICES} = (",
       "\t('${2:Nome da opção}', '${2:Nome da opção}'),",
       ")\n"
     ],
-    "description": "CHOICES field no padrão da Nova Data"
+    "description": "CHOICES field"
   }
 }

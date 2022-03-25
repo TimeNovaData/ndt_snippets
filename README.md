@@ -1,20 +1,53 @@
-# nova-data-snippets README
+# Nova Data snippets
+Essa é uma extensão que foi criada com o intuito de acelerar a programação dos desenvolvedores web que usam Python e Django.
 
-This is the README for your extension "nova-data-snippets". After writing up a brief description, we recommend including the following sections.
+Ela contém diversos snippets, ou seja, trechos de código prontos, assim você não precisa se preocupar com a parte repetitiva
 
-## Features
+do código, apenas com a parte dinâmica.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+# Funcionalidades
 
-For example if there is an image subfolder under your extension project workspace:
+Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensão:
 
-\!\[feature X\]\(images/feature-x.png\)
+## Admin snippets
+| Abreviação                         | Descrição                         |
+| ---------------------------------- | --------------------------------- |
+| admin_nova_data                    | Um arquivo admin                  |
+| tabular_inline_nova_data           | Tabular inline                    |
+| stacked_inline_nova_data           | Stacked inline                    |
+| fieldsets_nova_data                | Fieldsets                         |
+| get_readonly_fields_nova_data      | Função get_readonly_fields        |
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Models snippets
+| Abreviação                         | Descrição                         |
+| ---------------------------------- | --------------------------------- |
+| model_nova_data                    | Uma model                         |
+| data_criacao_nova_data             | Campo data de criação             |
+| data_atualizacao_nova_data         | Campo data de atualização         |
+| data_criacao_atualizacao_nova_data | Campos data criação e atualização |
+| save_criacao_atualizacao_nova_data | Função save                       |
+| choices_nova_data                  | CHOICES field                     |
+
+## Signals snippets
+| Abreviação                         | Descrição                         |
+| ---------------------------------- | --------------------------------- |
+| signal_post_save_nova_data         | Um signal post_save               |
+
+## URLs snippets
+| Abreviação                         | Descrição                         |
+| ---------------------------------- | --------------------------------- |
+| urls_nova_data                     | Um urls.py                        |
+| path_simples_nova_data             | Um path simples                   |
+| path_classe_nova_data              | Um path com classe                |
+| path_include_nova_data             | Um path com include               |
+
+## Views snippets
+| Abreviação                         | Descrição                         |
+| ---------------------------------- | --------------------------------- |
+| view_nova_data                     | Uma view                          |
 
 ## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Essa extensão não possui nenhum pacote como dependência.
 
 ## Extension Settings
 

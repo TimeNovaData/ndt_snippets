@@ -1,5 +1,5 @@
 {
-  "Um arquivo admin no padrão da Nova Data": {
+  "Um arquivo admin": {
     "prefix": "admin_nova_data",
     "body": [
       "from django.contrib import admin\n",
@@ -25,10 +25,10 @@
       "\t\t'${4:campos_fk}",
       "\t]\n"
     ],
-    "description": "Um arquivo admin no padrão da Nova Data"
+    "description": "Um arquivo admin"
   },
 
-  "Tabular inline no padrão da Nova Data": {
+  "Tabular inline": {
     "prefix": "tabular_inline_nova_data",
     "body": [
       "from django.contrib import admin\n",
@@ -40,10 +40,10 @@
 
       "\textra = 0\n"
     ],
-    "description": "Tabular inline no padrão da Nova Data"
+    "description": "Tabular inline"
   },
 
-  "Stacked inline no padrão da Nova Data": {
+  "Stacked inline": {
     "prefix": "stacked_inline_nova_data",
     "body": [
       "from django.contrib import admin\n",
@@ -55,10 +55,10 @@
 
       "\textra = 0\n"
     ],
-    "description": "Stacked inline no padrão da Nova Data"
+    "description": "Stacked inline"
   },
 
-  "Fieldsets no padrão da Nova Data": {
+  "Fieldsets": {
     "prefix": "fieldsets_nova_data",
     "body": [
       "fieldsets = [",
@@ -70,10 +70,10 @@
       "\t]}),",
       "]"
     ],
-    "description": "Fieldsets no padrão da Nova Data"
+    "description": "Fieldsets"
   },
 
-  "Função get_readonly_fields no padrão da Nova Data": {
+  "Função get_readonly_fields": {
     "prefix": "get_readonly_fields_nova_data",
     "body": [
         "def get_readonly_fields(self, request, obj=None):",
@@ -81,6 +81,6 @@
         "\t${1:Sua lógica aqui}\n",
         "\treturn lista_fields"
     ],
-    "description": "Função get_readonly_fields no padrão da Nova Data"
+    "description": "Função get_readonly_fields"
   }
 }

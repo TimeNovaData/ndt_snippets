@@ -1,5 +1,5 @@
 {
-  "Uma view no padrão da Nova Data": {
+  "Uma view": {
     "prefix": "view_nova_data",
     "body": [
       "from django.contrib.auth.decorators import login_required",
@@ -15,6 +15,6 @@
       "\t\tcontext",
       "\t)\n"
     ],
-    "description": "Uma view no padrão da Nova Data"
+    "description": "Uma view"
   }
 }
