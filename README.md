@@ -12,14 +12,14 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 
 ## Admin snippets
 
-| Abreviação                    | Descrição                   |
-| ----------------------------- | --------------------------- |
-| admin_nova_data               | Um arquivo admin            |
-| fieldsets_nova_data           | Fieldsets                   |
-| get_readonly_fields_nova_data | Função get_readonly_fields  |
-| Propriedade do admin          | propriedade_admin_nova_data |
-| stacked_inline_nova_data      | Stacked inline              |
-| tabular_inline_nova_data      | Tabular inline              |
+| Abreviação                    | Descrição                  |
+| ----------------------------- | -------------------------- |
+| admin_nova_data               | Um arquivo admin           |
+| fieldsets_nova_data           | Fieldsets                  |
+| get_readonly_fields_nova_data | Função get_readonly_fields |
+| propriedade_admin_nova_data   | Propriedade do admin       |
+| stacked_inline_nova_data      | Stacked inline             |
+| tabular_inline_nova_data      | Tabular inline             |
 
 ## Models snippets
 
