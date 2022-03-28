@@ -1,22 +1,4 @@
 {
-  "Um urls.py": {
-    "prefix": "urls_nova_data",
-    "body": [
-      "from django.urls import path\n",
-
-      "urlpatterns = [",
-      "\t${1:Escreva 'path_simples_nova_data' ou 'path_classe_nova_data'}",
-      "]\n"
-    ],
-    "description": "Um urls.py"
-  },
-
-  "Um path simples": {
-    "prefix": "path_simples_nova_data",
-    "body": ["path('${1:nome-view}/', ${2:nome_view}, name='${2:nome_view}'),"],
-    "description": "Um path simples"
-  },
-
   "Um path com classe": {
     "prefix": "path_classe_nova_data",
     "body": [
@@ -29,5 +11,23 @@
     "prefix": "path_include_nova_data",
     "body": ["path('${1:nome-app}/', include('${2:nome_app}.urls')),"],
     "description": "Um path com include"
+  },
+
+  "Um path simples": {
+    "prefix": "path_simples_nova_data",
+    "body": ["path('${1:nome-view}/', ${2:nome_view}, name='${2:nome_view}'),"],
+    "description": "Um path simples"
+  },
+
+  "Um urls.py": {
+    "prefix": "urls_nova_data",
+    "body": [
+      "from django.urls import path\n",
+
+      "urlpatterns = [",
+      "\t${1:Escreva 'path_simples_nova_data' ou 'path_classe_nova_data'}",
+      "]\n"
+    ],
+    "description": "Um urls.py"
   }
 }

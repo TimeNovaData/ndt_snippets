@@ -28,36 +28,6 @@
     "description": "Um arquivo admin"
   },
 
-  "Tabular inline": {
-    "prefix": "tabular_inline_nova_data",
-    "body": [
-      "from django.contrib import admin\n",
-
-      "from ..models import ${1:NomeDaSuaModel}\n\n",
-
-      "class ${1:NomeDaSuaModel}Inline(admin.TabularInline):",
-      "\tmodel = ${1:NomeDaSuaModel}\n",
-
-      "\textra = 0\n"
-    ],
-    "description": "Tabular inline"
-  },
-
-  "Stacked inline": {
-    "prefix": "stacked_inline_nova_data",
-    "body": [
-      "from django.contrib import admin\n",
-
-      "from ..models import ${1:NomeDaSuaModel}\n\n",
-
-      "class ${1:NomeDaSuaModel}Inline(admin.StackedInline):",
-      "\tmodel = ${1:NomeDaSuaModel}\n",
-
-      "\textra = 0\n"
-    ],
-    "description": "Stacked inline"
-  },
-
   "Fieldsets": {
     "prefix": "fieldsets_nova_data",
     "body": [
@@ -82,5 +52,45 @@
         "\treturn lista_fields"
     ],
     "description": "Função get_readonly_fields"
+  },
+
+  "Propriedade do admin": {
+    "prefix": "propriedade_admin_nova_data",
+    "body": [
+      "${1:nome_propriedade} = [",
+        "\t'${2:atributo}",
+      "]\n"
+    ],
+    "description": "Propriedade do admin"
+  },
+
+  "Stacked inline": {
+    "prefix": "stacked_inline_nova_data",
+    "body": [
+      "from django.contrib import admin\n",
+
+      "from ..models import ${1:NomeDaSuaModel}\n\n",
+
+      "class ${1:NomeDaSuaModel}Inline(admin.StackedInline):",
+      "\tmodel = ${1:NomeDaSuaModel}\n",
+
+      "\textra = 0\n"
+    ],
+    "description": "Stacked inline"
+  },
+
+  "Tabular inline": {
+    "prefix": "tabular_inline_nova_data",
+    "body": [
+      "from django.contrib import admin\n",
+
+      "from ..models import ${1:NomeDaSuaModel}\n\n",
+
+      "class ${1:NomeDaSuaModel}Inline(admin.TabularInline):",
+      "\tmodel = ${1:NomeDaSuaModel}\n",
+
+      "\textra = 0\n"
+    ],
+    "description": "Tabular inline"
   }
 }

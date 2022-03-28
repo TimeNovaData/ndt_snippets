@@ -13,20 +13,21 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | Abreviação                         | Descrição                         |
 | ---------------------------------- | --------------------------------- |
 | admin_nova_data                    | Um arquivo admin                  |
-| tabular_inline_nova_data           | Tabular inline                    |
-| stacked_inline_nova_data           | Stacked inline                    |
 | fieldsets_nova_data                | Fieldsets                         |
 | get_readonly_fields_nova_data      | Função get_readonly_fields        |
+| Propriedade do admin               | propriedade_admin_nova_data       |
+| stacked_inline_nova_data           | Stacked inline                    |
+| tabular_inline_nova_data           | Tabular inline                    |
 
 ## Models snippets
 | Abreviação                         | Descrição                         |
 | ---------------------------------- | --------------------------------- |
-| model_nova_data                    | Uma model                         |
-| data_criacao_nova_data             | Campo data de criação             |
-| data_atualizacao_nova_data         | Campo data de atualização         |
-| data_criacao_atualizacao_nova_data | Campos data criação e atualização |
-| save_criacao_atualizacao_nova_data | Função save                       |
 | choices_nova_data                  | CHOICES field                     |
+| data_atualizacao_nova_data         | Campo data de atualização         |
+| data_criacao_nova_data             | Campo data de criação             |
+| data_criacao_atualizacao_nova_data | Campos data criação e atualização |
+| model_nova_data                    | Uma model                         |
+| save_nova_data                     | Função save                       |
 
 ## Signals snippets
 | Abreviação                         | Descrição                         |
@@ -36,10 +37,10 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 ## URLs snippets
 | Abreviação                         | Descrição                         |
 | ---------------------------------- | --------------------------------- |
-| urls_nova_data                     | Um urls.py                        |
-| path_simples_nova_data             | Um path simples                   |
 | path_classe_nova_data              | Um path com classe                |
 | path_include_nova_data             | Um path com include               |
+| path_simples_nova_data             | Um path simples                   |
+| urls_nova_data                     | Um urls.py                        |
 
 ## Views snippets
 | Abreviação                         | Descrição                         |

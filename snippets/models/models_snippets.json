@@ -1,4 +1,52 @@
 {
+  "CHOICES field": {
+    "prefix": "choices_nova_data",
+    "body": [
+      "${1:NOME_CHOICES} = (",
+      "\t('${2:Nome da opção}', '${2:Nome da opção}'),",
+      ")\n"
+    ],
+    "description": "CHOICES field"
+  },
+
+  "Campo data de atualização": {
+    "prefix": "data_atualizacao_nova_data",
+    "body": [
+      "data_atualizacao = models.DateTimeField(",
+      "\tverbose_name='Data de atualização',",
+      "\tauto_now=True",
+      ")\n\n"
+    ],
+    "description": "Campo data de atualização"
+  },
+
+  "Campo data de criação": {
+    "prefix": "data_criacao_nova_data",
+    "body": [
+      "data_criacao = models.DateTimeField(",
+      "\tverbose_name='Data de criação',",
+      "\tauto_now_add=True",
+      ")\n\n"
+    ],
+    "description": "Campo data de criação"
+  },
+
+  "Campos data criação e atualização": {
+    "prefix": "data_criacao_atualizacao_nova_data",
+    "body": [
+      "data_criacao = models.DateTimeField(",
+      "\tverbose_name='Data de criação',",
+      "\tauto_now_add=True",
+      ")\n",
+
+      "data_atualizacao = models.DateTimeField(",
+      "\tverbose_name='Data de atualização',",
+      "\tauto_now=True",
+      ")\n\n"
+    ],
+    "description": "Campos data criação e atualização"
+  },
+
   "Uma model": {
     "prefix": "model_nova_data",
     "body": [
@@ -26,46 +74,8 @@
     "description": "Uma model"
   },
 
-  "Campo data de criação": {
-    "prefix": "data_criacao_nova_data",
-    "body": [
-      "data_criacao = models.DateTimeField(",
-      "\tverbose_name='Data de criação',",
-      "\tauto_now_add=True",
-      ")\n\n"
-    ],
-    "description": "Campo data de criação"
-  },
-
-  "Campo data de atualização": {
-    "prefix": "data_atualizacao_nova_data",
-    "body": [
-      "data_atualizacao = models.DateTimeField(",
-      "\tverbose_name='Data de atualização',",
-      "\tauto_now=True",
-      ")\n\n"
-    ],
-    "description": "Campo data de atualização"
-  },
-
-  "Campos data criação e atualização": {
-    "prefix": "data_criacao_atualizacao_nova_data",
-    "body": [
-      "data_criacao = models.DateTimeField(",
-      "\tverbose_name='Data de criação',",
-      "\tauto_now_add=True",
-      ")\n",
-
-      "data_atualizacao = models.DateTimeField(",
-      "\tverbose_name='Data de atualização',",
-      "\tauto_now=True",
-      ")\n\n"
-    ],
-    "description": "Campos data criação e atualização"
-  },
-
   "Função save": {
-    "prefix": "save_criacao_atualizacao_nova_data",
+    "prefix": "save_nova_data",
     "body": [
       "def save(self, *args, **kwargs):",
       "\tuser = get_current_user()",
@@ -77,15 +87,5 @@
       "\tsuper(${1:NomeDaSuaModel}, self).save(*args, **kwargs)\n"
     ],
     "description": "Função save"
-  },
-
-  "CHOICES field": {
-    "prefix": "choices_nova_data",
-    "body": [
-      "${1:NOME_CHOICES} = (",
-      "\t('${2:Nome da opção}', '${2:Nome da opção}'),",
-      ")\n"
-    ],
-    "description": "CHOICES field"
   }
 }
