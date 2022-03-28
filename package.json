@@ -4,6 +4,7 @@
   "description": "Snippets com o padrão da nossa empresa para facilitar a sua programação no dia a dia!",
   "version": "0.0.1",
   "publisher": "NovaDataSnippets",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.65.0"
   },
