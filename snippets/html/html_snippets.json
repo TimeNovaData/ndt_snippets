@@ -1,0 +1,126 @@
+{
+	"Bloco do Django": {
+		"prefix": "block_nova_data",
+		"body": [
+			"{% block $1 %}",
+				"\t${2:conteudo}",
+			"{% endblock %}"
+		],
+		"description": "Bloco do Django"
+	},
+	
+	"Comment do Django": {
+		"prefix": "comment_nova_data",
+		"body": [
+			"{% comment %}",
+				"\t${CLIPBOARD}",
+			"{% endcomment %}"
+		],
+		"description": "Comment do Django"
+	},
+	
+	"Extends do Django": {
+		"prefix": "extends_nova_data",
+		"body": [
+			"{% extends '${1:caminho/para/o/template}.html' %}"
+		],
+		"description": "Extends do Django"
+	},
+	
+	"For do Django": {
+		"prefix": "for_nova_data",
+		"body": [
+			"{% for ${1:variavel} in ${2:variavel_iteravel} %}",
+			"\t${3:conteudo}",
+			"{% endfor %}\n"
+		],
+		"description": "For do Django"
+	},
+	
+	"Endfor do Django": {
+		"prefix": "endfor_nova_data",
+		"body": [
+			"{% endfor %}\n"
+		],
+		"description": "Endfor do Django"
+	},
+	
+	"If do Django": {
+		"prefix": "if_nova_data",
+		"body": [
+			"{% if ${1:condicao} %}",
+				"\t${2:conteudo}",
+			"{% endif %}\n"
+		],
+		"description": "If do Django"
+	},
+	
+	"If else do Django": {
+		"prefix": "ifelse_nova_data",
+		"body": [
+			"{% if ${1:condicao} %}",
+				"\t${2:conteudo}",
+			"{% else %}",
+				"\t${3:mais conteudo}",
+			"{% endif %}"
+		],
+		"description": "If else do Django"
+	},
+	
+	"If de uma linha do Django": {
+		"prefix": "if_line_nova_data",
+		"body": [
+			"{% if ${1:condicao} %} ${2:conteudo} {% endif %}"
+		],
+		"description": "If de uma linha do Django"
+	},
+	
+	"If else de uma linha do Django": {
+		"prefix": "ifelse_line_nova_data",
+		"body": [
+			"{% if ${1:condicao} %} ${2:conteudo} {% else %} ${3:mais conteudo} {% endif %}"
+		],
+		"description": "If else de uma linha do Django"
+	},
+	
+	"Else do Django": {
+		"prefix": "else_nova_data",
+		"body": [
+			"{% else %}",
+			"\t${1:conteudo}"
+		],
+		"description": "Else do Django"
+	},
+	
+	"Endif do Django": {
+		"prefix": "endif_nova_data",
+		"body": [
+			"{% endif %}"
+		],
+		"description": "Endif do Django"
+	},
+	
+	"Include do Django": {
+		"prefix": "include_nova_data",
+		"body": [
+			"{% include '${1:caminho/para/o/template}.html' %}"
+		],
+		"description": "Include do Django"
+	},
+	
+	"Url do Django": {
+		"prefix": "url_nova_data",
+		"body": [
+			"{% url '${1:name_da_sua_url}' %}"
+		],
+		"description": "Url do Django"
+	},
+	
+	"Url com parâmetro do Django": {
+		"prefix": "urlparam_nova_data",
+		"body": [
+			"{% url '${1:name_da_sua_url}' ${2:parametro} %}"
+		],
+		"description": "Url com parâmetro do Django"
+	}
+}

@@ -2,7 +2,7 @@
   "Um path com classe": {
     "prefix": "path_classe_nova_data",
     "body": [
-      "path('${1:nome-url}/', ${2:nome_view}.as_view(), name='${2:nome_view}'),"
+      "path('${1/[\\_]/-/g}/', ${2:NomeClasse}.as_view(), name='${3:nome_view}'),"
     ],
     "description": "Um path com classe"
   },
@@ -15,7 +15,7 @@
 
   "Um path simples": {
     "prefix": "path_simples_nova_data",
-    "body": ["path('${1:nome-view}/', ${2:nome_view}, name='${2:nome_view}'),"],
+    "body": ["path('${1/[\\_]/-/g}/', ${2:nome_view}, name='${2:nome_view}'),"],
     "description": "Um path simples"
   },
 

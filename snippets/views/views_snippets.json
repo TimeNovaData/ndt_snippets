@@ -1,4 +1,50 @@
 {
+  "Consulta all": {
+    "prefix": "all_nova_data",
+    "body": [
+      "${1:SeuObjeto}.objects.all()\n"
+    ],
+    "description": "Consulta all"
+  },
+
+  "Consulta filter": {
+    "prefix": "filter_nova_data",
+    "body": [
+      "${1:SeuObjeto}.objects.filter(",
+        "\t${2:campo=alguma_coisa}",
+      ")\n"
+    ],
+    "description": "Consulta filter"
+  },
+
+  "Consulta get": {
+    "prefix": "get_nova_data",
+    "body": [
+      "${1:SeuObjeto}.objects.get(${2:campo=alguma_coisa})\n"
+    ],
+    "description": "Consulta get"
+  },
+
+  "Consulta filter com select_related": {
+    "prefix": "filter_select_related_nova_data",
+    "body": [
+      "${1:SeuObjeto}.objects.select_related(",
+        "\t'${2:campos_fk_que_serao_usados}",
+      ").filter(${3:campo=alguma_coisa})\n"
+    ],
+    "description": "Consulta filter com select_related"
+  },
+
+  "Consulta get com select_related": {
+    "prefix": "get_select_related_nova_data",
+    "body": [
+      "${1:SeuObjeto}.objects.select_related(",
+        "\t'${2:campos_fk_que_serao_usados}",
+      ").get(${3:campo=alguma_coisa})\n"
+    ],
+    "description": "Consulta get com select_related"
+  },
+  
   "Uma view": {
     "prefix": "view_nova_data",
     "body": [
@@ -6,15 +52,34 @@
       "from django.shortcuts import render\n\n",
 
       "@login_required",
-      "def ${1:nome_view}(request):",
-      "\tcontext = {}\n",
+      "def $TM_FILENAME_BASE(request):",
+      "\tcontext = {",
+        "\t\t",
+      "\t}\n",
 
       "\treturn render(",
       "\t\trequest,",
-      "\t\t'${2:caminho/para/o/template}.html',",
+      "\t\t'${1:caminho/para/o/template}.html',",
       "\t\tcontext",
       "\t)\n"
     ],
     "description": "Uma view"
+  },
+  
+  "Uma view com redirect": {
+    "prefix": "view_redirect_nova_data",
+    "body": [
+      "from django.contrib.auth.decorators import login_required",
+      "from django.shortcuts import redirect",
+      "from django.urls import reverse_lazy\n\n",
+    
+    
+      "@login_required",
+      "def $TM_FILENAME_BASE(request):",
+        "\t$1\n",
+    
+        "\treturn redirect(reverse_lazy('${2:name_da_url}'))\n"
+    ],
+    "description": "Uma view com redirect"
   }
 }
