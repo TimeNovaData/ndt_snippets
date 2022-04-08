@@ -6,6 +6,15 @@ Ela contém diversos snippets, ou seja, trechos de código prontos, assim você 
 
 do código, apenas com a parte dinâmica.
 
+# Como usar
+
+Basta digitar a abrevição estando dentro de um arquivo com a linguagem correta e dar
+um tab! Te daremos todo um esqueleto de alguma coisa.
+
+"Mas que coisa é essa?" vocẽ pode se perguntar, bem, aqui temos um exemplo e logo
+em seguida temos todas as funcionalidades contidas na nossa extensão, dá uma conferida para ver todas as possibilidades! \o/
+
+
 # Funcionalidades
 
 Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensão:
@@ -21,6 +30,7 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | stacked_inline_nova_data      | Stacked inline             |
 | tabular_inline_nova_data      | Tabular inline             |
 
+<<<<<<< HEAD
 ## HTML snippets
 
 | Abreviação            | Descrição            |
@@ -39,6 +49,47 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | include_nova_data     | Include              |
 | url_nova_data         | Url                  |
 | urlparam_nova_data    | Url com parâmetro    |
+=======
+### Forms snippets
+
+| Abreviação           | Descrição  |
+| -------------------- | ---------- |
+| model_form_nova_data | Model Form |
+
+## HTML snippets
+
+| Abreviação             | Descrição                      |
+| ---------------------- | ------------------------------ |
+| block_nova_data        | Block simples                  |
+| comment_nova_data      | Comment                        |
+| comment_line_nova_data | Comment de uma linha do Django |
+| csrf_nova_data         | CSRF token do Django           |
+| extends_nova_data      | Extends                        |
+| for_nova_data          | For                            |
+| endfor_nova_data       | Endfor                         |
+| if_nova_data           | If                             |
+| ifelse_nova_data       | If else                        |
+| if_line_nova_data      | If de uma linha                |
+| ifelse_line_nova_data  | If else de uma linha           |
+| else_nova_data         | Else                           |
+| endif_nova_data        | Endif                          |
+| include_nova_data      | Include                        |
+| load_nova_data         | Load do Django                 |
+| url_nova_data          | Url                            |
+| urlparam_nova_data     | Url com parâmetro              |
+
+### Managers snippets
+
+| Abreviação        | Descrição  |
+| ----------------- | ---------- |
+| manager_nova_data | Um manager |
+
+### Settings snippets
+
+| Abreviação    | Descrição  |
+| ------------- | ---------- |
+| aws_nova_data | Config AWS |
+>>>>>>> 96fad53 (static)
 
 ## Models snippets
 
@@ -71,8 +122,17 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | Abreviação                      | Descrição                          |
 | ------------------------------- | ---------------------------------- |
 | all_nova_data                   | Consulta all                       |
+<<<<<<< HEAD
 | filter_nova_data                | Consulta filter                    |
 | get_nova_data                   | Consulta get                       |
+=======
+| args_nova_data                  | Args                               |
+| args_kwargs_nova_data           | Args kwargs                        |
+| create_view_nova_data           | Uma CreateView                     |
+| filter_nova_data                | Consulta filter                    |
+| get_nova_data                   | Consulta get                       |
+| get_context_data_nova_data      | Função get context data            |
+>>>>>>> 96fad53 (static)
 | filter_select_related_nova_data | Consulta filter com select_related |
 | get_select_related_nova_data    | Consulta get com select_related    |
 | view_nova_data                  | Uma view                           |

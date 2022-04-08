@@ -1,0 +1,28 @@
+{
+  "Config AWS": {
+    "prefix": "aws_nova_data",
+    "body": [
+      "USE_AWS = config('USE_AWS', default=False, cast=bool)",
+      "if USE_AWS:",
+      "\tAWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')",
+      "\tAWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')",
+      "\tAWS_STORAGE_BUCKET_NAME = '${1:nome-bucket}'",
+      "\tAWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME",
+      "\tAWS_S3_OBJECT_PARAMETERS = {",
+      "\t\t'CacheControl': 'max-age=86400',",
+      "\t}",
+      "\tAWS_LOCATION = 'static'",
+      "\tAWS_DEFAULT_ACL = None\n",
+
+      "\tSTATIC_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)",
+      "\tSTATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'",
+      "\tDEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'\n",
+
+      "\t# s3 public media settings",
+      "\tPUBLIC_MEDIA_LOCATION = 'media'",
+      "\tMEDIA_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, PUBLIC_MEDIA_LOCATION)",
+      "\tDEFAULT_FILE_STORAGE = '${2:pasta_principal}.storage_backends.PublicMediaStorage'\n"
+    ],
+    "description": "Config AWS"
+  }
+}

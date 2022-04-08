@@ -1,10 +1,10 @@
 {
   "name": "nova-data-snippets",
   "displayName": "Nova Data Snippets",
-  "description": "Snippets com o padrão da nossa empresa para facilitar a sua programação no dia a dia!",
-  "version": "0.0.4",
+  "description": "Snippets com o padrão da nossa empresa para facilitar a sua programação no dia a dia",
+  "version": "0.0.5",
   "publisher": "NovaDataSnippets",
-  "icon": "images/logo.png",
+  "icon": "static/images/logo.png",
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -23,7 +23,23 @@
       },
       {
         "language": "python",
+        "path": "./snippets/forms/forms_snippets.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/html_snippets.json"
+      },
+      {
+        "language": "python",
+        "path": "./snippets/managers/managers_snippets.json"
+      },
+      {
+        "language": "python",
         "path": "./snippets/models/models_snippets.json"
+      },
+      {
+        "language": "python",
+        "path": "./snippets/settings/settings_snippets.json"
       },
       {
         "language": "python",
@@ -31,19 +47,11 @@
       },
       {
         "language": "python",
-        "path": "./snippets/views/views_snippets.json"
-      },
-      {
-        "language": "python",
         "path": "./snippets/urls/urls_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/settings/settings_snippets.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/html/html_snippets.json"
+        "path": "./snippets/views/views_snippets.json"
       }
     ]
   }

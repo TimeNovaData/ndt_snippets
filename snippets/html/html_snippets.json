@@ -19,6 +19,22 @@
 		"description": "Comment do Django"
 	},
 	
+	"Comment de uma linha do Django": {
+		"prefix": "comment_line_nova_data",
+		"body": [
+			"{% comment %} ${CLIPBOARD} {% endcomment %}"
+		],
+		"description": "Comment de uma linha do Django"
+	},
+
+	"CSRF token do Django": {
+		"prefix": "csrf_nova_data",
+		"body": [
+			"{% csrf_token %}"
+		],
+		"description": "CSRF token do Django"
+	},
+	
 	"Extends do Django": {
 		"prefix": "extends_nova_data",
 		"body": [
@@ -106,6 +122,14 @@
 			"{% include '${1:caminho/para/o/template}.html' %}"
 		],
 		"description": "Include do Django"
+	},
+	
+	"Load do Django": {
+		"prefix": "load_nova_data",
+		"body": [
+			"{% load ${1:nome_biblioteca} %}"
+		],
+		"description": "Load do Django"
 	},
 	
 	"Url do Django": {
