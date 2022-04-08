@@ -2,7 +2,7 @@
 
 Acompanhe nossas funcionalidades com o passar do tempo!
 
-## [0.0.5]
+## [0.0.6]
 
 ### Forms snippets
 
