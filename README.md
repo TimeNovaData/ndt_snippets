@@ -14,7 +14,8 @@ um tab! Te daremos todo um esqueleto de alguma coisa.
 "Mas que coisa é essa?" vocẽ pode se perguntar, bem, aqui temos um exemplo e logo
 em seguida temos todas as funcionalidades contidas na nossa extensão, dá uma conferida para ver todas as possibilidades! \o/
 
-![como_usar](https://github.com/TimeNovaData/nova_data_snippets/blob/master/static/videos/como_usar.gif "como_usar")
+<img src="https://github.com/TimeNovaData/nova_data_snippets/raw/master/static/videos/como_usar.gif" alt="Como usar">
+
 
 # Funcionalidades
 
