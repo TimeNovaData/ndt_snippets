@@ -38,6 +38,10 @@
         "path": "./snippets/urls/urls_snippets.json"
       },
       {
+        "language": "python",
+        "path": "./snippets/settings/settings_snippets.json"
+      },
+      {
         "language": "html",
         "path": "./snippets/html/html_snippets.json"
       }
