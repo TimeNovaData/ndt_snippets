@@ -2,7 +2,7 @@
 	"Bloco do Django": {
 		"prefix": "block_nova_data",
 		"body": [
-			"{% block $1 %}",
+			"{% block ${1:nome_bloco} %}",
 				"\t${2:conteudo}",
 			"{% endblock %}"
 		],
