@@ -2,6 +2,43 @@
 
 Acompanhe nossas funcionalidades com o passar do tempo!
 
+## [0.0.5]
+
+### Forms snippets
+
+| Abreviação           | Descrição  |
+| -------------------- | ---------- |
+| model_form_nova_data | Model Form |
+
+### HTML snippets
+
+| Abreviação             | Descrição                      |
+| ---------------------- | ------------------------------ |
+| comment_line_nova_data | Comment de uma linha do Django |
+| csrf_nova_data         | CSRF token do Django           |
+| load_nova_data         | Load do Django                 |
+
+### Managers snippets
+
+| Abreviação        | Descrição  |
+| ----------------- | ---------- |
+| manager_nova_data | Um manager |
+
+### Settings snippets
+
+| Abreviação    | Descrição  |
+| ------------- | ---------- |
+| aws_nova_data | Config AWS |
+
+### Views snippets
+
+| Abreviação                 | Descrição               |
+| -------------------------- | ----------------------- |
+| args_nova_data             | Args                    |
+| args_kwargs_nova_data      | Args kwargs             |
+| create_view_nova_data      | Uma CreateView          |
+| get_context_data_nova_data | Função get context data |
+
 ## [0.0.4]
 
 ### HTML snippets

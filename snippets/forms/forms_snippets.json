@@ -1,0 +1,20 @@
+{
+  "Model Form": {
+    "prefix": "model_form_nova_data",
+    "body": [
+      "from django import forms\n",
+
+      "from ..models import ${1:SuaModel}\n\n",
+      
+      
+      "class ${1:SuaModel}Form(forms.ModelForm):",
+        "\tclass Meta:",
+          "\t\tmodel = ${1:SuaModel}\n",
+          
+          "\t\tfields = [",
+            "\t\t\t'__all__',",
+          "\t\t]\n"
+    ],
+    "description": "Model Form"
+  }
+}
