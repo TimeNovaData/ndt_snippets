@@ -2,6 +2,14 @@
 
 Acompanhe nossas funcionalidades com o passar do tempo!
 
+## [0.0.7]
+
+### Views snippets
+
+| Abreviação          | Descrição                 |
+| ------------------- | ------------------------- |
+| view_json_nova_data | Uma view com retorno json |
+
 ## [0.0.6]
 
 ### Forms snippets

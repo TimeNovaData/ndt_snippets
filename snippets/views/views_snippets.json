@@ -104,6 +104,30 @@
     "description": "Consulta get com select_related"
   },
   
+  "Uma view com retorno json": {
+    "prefix": "view_json_nova_data",
+    "body": [
+      "import json\n",
+
+      "from django.contrib.auth.decorators import login_required",
+      "from django.http import JsonResponse\n",
+
+
+
+      "@login_required",
+      "def $TM_FILENAME_BASE(request):",
+          "\tdata = json.loads(request.body.decode('utf-8'))\n",
+          
+          "\t$1\n",
+          
+          "\tif example:",
+            "\t\treturn JsonResponse({'message': '${2:Mensagem de sucesso}'})",
+          "\telse:",
+            "\t\treturn JsonResponse({'error': '${3:Mensagem de erro}'}) # Padrão aconselhável\n"
+    ],
+    "description": "Uma view com retorno json"
+  },
+  
   "Uma view": {
     "prefix": "view_nova_data",
     "body": [

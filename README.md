@@ -16,7 +16,6 @@ em seguida temos todas as funcionalidades contidas na nossa extensão, dá uma c
 
 <img src="https://github.com/TimeNovaData/nova_data_snippets/raw/master/static/videos/como_usar.gif" alt="Como usar">
 
-
 # Funcionalidades
 
 Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensão:
@@ -111,6 +110,7 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | get_context_data_nova_data      | Função get context data            |
 | filter_select_related_nova_data | Consulta filter com select_related |
 | get_select_related_nova_data    | Consulta get com select_related    |
+| view_json_nova_data             | Uma view com retorno json          |
 | view_nova_data                  | Uma view                           |
 | view_redirect_nova_data         | Uma view com redirect              |
 
