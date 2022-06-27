@@ -1,4 +1,11 @@
 {
+    "Importação da classe Group": {
+        "prefix": "import_group_nova_data",
+        "body": [
+            "from django.contrib.auth.models import Group"
+        ],
+        "description": "Importação da classe Group"
+    },
     "Importação da classe User": {
         "prefix": "import_user_nova_data",
         "body": [
