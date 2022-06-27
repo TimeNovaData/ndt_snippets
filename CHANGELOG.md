@@ -4,6 +4,12 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 ## [0.0.7]
 
+### Imports snippets
+
+| Abreviação              | Descrição                   |
+| ----------------------- | --------------------------- |
+| import_render_nova_data | Importação da função render |
+
 ### Views snippets
 
 | Abreviação          | Descrição                 |

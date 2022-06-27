@@ -59,6 +59,12 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | url_nova_data          | Url                            |
 | urlparam_nova_data     | Url com parâmetro              |
 
+## Imports snippets
+
+| Abreviação              | Descrição                   |
+| ----------------------- | --------------------------- |
+| import_render_nova_data | Importação da função render |
+
 ### Managers snippets
 
 | Abreviação        | Descrição  |

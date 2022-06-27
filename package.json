@@ -31,6 +31,10 @@
       },
       {
         "language": "python",
+        "path": "./snippets/imports/imports_snippets.json"
+      },
+      {
+        "language": "python",
         "path": "./snippets/managers/managers_snippets.json"
       },
       {
