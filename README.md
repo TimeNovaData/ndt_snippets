@@ -82,12 +82,6 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | ----------------- | ---------- |
 | manager_nova_data | Um manager |
 
-### Settings snippets
-
-| Abreviação    | Descrição  |
-| ------------- | ---------- |
-| aws_nova_data | Config AWS |
-
 ## Models snippets
 
 | Abreviação                         | Descrição                         |
@@ -96,8 +90,15 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | data_atualizacao_nova_data         | Campo data de atualização         |
 | data_criacao_nova_data             | Campo data de criação             |
 | data_criacao_atualizacao_nova_data | Campos data criação e atualização |
+| enviar_email_nova_data             | Função para enviar um e-mail      |
 | model_nova_data                    | Uma model                         |
 | save_nova_data                     | Função save                       |
+
+### Settings snippets
+
+| Abreviação    | Descrição  |
+| ------------- | ---------- |
+| aws_nova_data | Config AWS |
 
 ## Signals snippets
 
@@ -133,7 +134,7 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 
 ## Requirements
 
-Essa extensão não possui nenhum pacote como dependência.
+Essa extensão não possui nenhum pacote como dependência a não ser o próprio Django.
 
 <!-- ## Release Notes
 

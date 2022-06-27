@@ -47,6 +47,22 @@
     "description": "Campos data criação e atualização"
   },
 
+  "Função para enviar um e-mail": {
+    "prefix": "enviar_email_nova_data",
+    "body": [
+      "def ${1:nome_funcao}(self):",
+        "\tfrom emails.models import MensagemEmail, TemplateEmail\n",
+
+        "\ttry:",
+            "\t\ttemplate_email = TemplateEmail.objects.get(codigo='${2:codigo_do_email}')",
+            "\t\tmensagem_email = MensagemEmail.objects.create(template_email=template_email)",
+            "\t\tmensagem_email.enviar()",
+        "\texcept:",
+            "\t\tprint('Provavelmente não existe um e-mail com esse código')\n"
+    ],
+    "description": "Função para enviar um e-mail"
+  },
+
   "Uma model": {
     "prefix": "model_nova_data",
     "body": [

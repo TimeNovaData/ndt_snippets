@@ -21,6 +21,12 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 | import_user_nova_data   | Importação da classe User   |
 | import_render_nova_data | Importação da função render |
 
+### Models snippets
+
+| Abreviação             | Descrição                    |
+| ---------------------- | ---------------------------- |
+| enviar_email_nova_data | Função para enviar um e-mail |
+
 ### Views snippets
 
 | Abreviação          | Descrição                 |

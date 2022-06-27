@@ -6,6 +6,7 @@
         ],
         "description": "Importação da classe Group"
     },
+
     "Importação da classe User": {
         "prefix": "import_user_nova_data",
         "body": [
@@ -13,6 +14,7 @@
         ],
         "description": "Importação da classe User"
     },
+
     "Importação da função render": {
         "prefix": "import_render_nova_data",
         "body": [
