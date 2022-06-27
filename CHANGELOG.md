@@ -9,6 +9,7 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 | Abreviação                 | Descrição           |
 | -------------------------- | ------------------- |
 | model_serializer_nova_data | Um model serializer |
+| model_viewset_nova_data    | Um model viewset    |
 
 ### Imports snippets
 

@@ -36,6 +36,7 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | Abreviação                 | Descrição           |
 | -------------------------- | ------------------- |
 | model_serializer_nova_data | Um model serializer |
+| model_viewset_nova_data    | Um model viewset    |
 
 ### Forms snippets
 
