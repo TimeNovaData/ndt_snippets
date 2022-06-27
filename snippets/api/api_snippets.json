@@ -1,0 +1,17 @@
+{
+    "Um model serializer": {
+        "prefix": "model_serializer_nova_data",
+        "body": [
+            "from rest_framework import serializers\n",
+
+            "from ..models import ${1:NomeModel}\n\n",
+
+
+            "class ${1:NomeModel}Serializer(serializers.ModelSerializer):",
+                "\tclass Meta:",
+                    "\t\tmodel = ${1:NomeModel}",
+                    "\t\tfields = '__all__'\n"
+        ],
+        "description": "Um model serializer"
+    }
+}

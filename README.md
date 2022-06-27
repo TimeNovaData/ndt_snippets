@@ -31,6 +31,12 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | stacked_inline_nova_data      | Stacked inline             |
 | tabular_inline_nova_data      | Tabular inline             |
 
+## API snippets
+
+| Abreviação                 | Descrição           |
+| -------------------------- | ------------------- |
+| model_serializer_nova_data | Um model serializer |
+
 ### Forms snippets
 
 | Abreviação           | Descrição  |

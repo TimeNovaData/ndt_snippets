@@ -23,6 +23,10 @@
       },
       {
         "language": "python",
+        "path": "./snippets/api/api_snippets.json"
+      },
+      {
+        "language": "python",
         "path": "./snippets/forms/forms_snippets.json"
       },
       {

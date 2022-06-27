@@ -4,6 +4,12 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 ## [0.0.7]
 
+### API snippets
+
+| Abreviação                 | Descrição           |
+| -------------------------- | ------------------- |
+| model_serializer_nova_data | Um model serializer |
+
 ### Imports snippets
 
 | Abreviação              | Descrição                   |
