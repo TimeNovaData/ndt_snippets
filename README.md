@@ -63,6 +63,7 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 
 | Abreviação              | Descrição                   |
 | ----------------------- | --------------------------- |
+| import_user_nova_data   | Importação da classe User   |
 | import_render_nova_data | Importação da função render |
 
 ### Managers snippets

@@ -8,6 +8,7 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 | Abreviação              | Descrição                   |
 | ----------------------- | --------------------------- |
+| import_user_nova_data   | Importação da classe User   |
 | import_render_nova_data | Importação da função render |
 
 ### Views snippets
