@@ -48,5 +48,13 @@
 
         ],
         "description": "Um router inicial"
+    },
+    "Um router simples": {
+        "prefix": "router_simples_nova_data",
+        "body": [
+            "${1:nome_router}.register('${2/[\\_]/-/g}', ${3:ViewSetName}, basename='${2}')"
+
+        ],
+        "description": "Um router simples"
     }
 }
