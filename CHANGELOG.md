@@ -10,6 +10,7 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 | -------------------------- | ------------------- |
 | model_serializer_nova_data | Um model serializer |
 | model_viewset_nova_data    | Um model viewset    |
+| router_initial_nova_data   | Um router inicial   |
 
 ### Imports snippets
 

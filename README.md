@@ -37,6 +37,7 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | -------------------------- | ------------------- |
 | model_serializer_nova_data | Um model serializer |
 | model_viewset_nova_data    | Um model viewset    |
+| router_initial_nova_data   | Um router inicial   |
 
 ### Forms snippets
 

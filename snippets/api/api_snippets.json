@@ -37,5 +37,16 @@
 
         ],
         "description": "Um model viewset"
+    },
+    "Um router inicial": {
+        "prefix": "router_initial_nova_data",
+        "body": [
+            "from rest_framework import routers\n",
+
+            "${1:nome_router} = routers.DefaultRouter()",
+            "${1:nome_router}.register('${2/[\\_]/-/g}', ${3:ViewSetName}, basename='${2}')"
+
+        ],
+        "description": "Um router inicial"
     }
 }
