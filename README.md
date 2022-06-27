@@ -129,6 +129,7 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | get_context_data_nova_data      | Função get context data            |
 | get_select_related_nova_data    | Consulta get com select_related    |
 | list_view_nova_data             | Uma ListView                       |
+| update_view_nova_data           | Uma UpdateView                     |
 | view_json_nova_data             | Uma view com retorno json          |
 | view_nova_data                  | Uma view                           |
 | view_redirect_nova_data         | Uma view com redirect              |

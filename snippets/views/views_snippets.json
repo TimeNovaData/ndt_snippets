@@ -41,7 +41,9 @@
 
         "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
 
-        "\tsuccess_url = reverse_lazy('${3:name_url}')\n",
+        "\tdef get_success_url(self):",    
+            "\t\tfrom django.http import reverse_lazy",
+            "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
 
         "\tdef get_context_data(self, **kwargs):",
           "\t\tcontext = super().get_context_data(**kwargs)\n",
@@ -115,9 +117,50 @@
 
       "class ${1:SuaModel}ListView(LoginRequiredMixin, ListView):",
           "\tmodel = ${1:SuaModel}",
-          "\ttemplate_name = '${2:caminho/para/o/template}.html'\n"
+          "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
+
+          "\tdef get_context_data(self, **kwargs):",
+            "\t\tcontext = super().get_context_data(**kwargs)\n",
+  
+            "\t\t\n",
+  
+            "\t\treturn context\n"
     ],
     "description": "Uma ListView"
+  },
+  
+  "Uma UpdateView": {
+    "prefix": "update_view_nova_data",
+    "body": [
+      "from django.contrib.auth.mixins import LoginRequiredMixin",
+      "from django.views.generic.edit import UpdateView\n",
+
+      "from ...models import ${1:SuaModel}\n\n",
+
+
+      "class ${1:SuaModel}UpdateView(LoginRequiredMixin, UpdateView):",
+          "\tmodel = ${1:SuaModel}",
+          "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
+
+          "\tdef get_context_data(self, **kwargs):",
+            "\t\tcontext = super().get_context_data(**kwargs)\n",
+  
+            "\t\t\n",
+  
+            "\t\treturn context\n",
+
+            "\tdef get_success_url(self):",    
+              "\t\tfrom django.http import reverse_lazy",
+              "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
+
+            "\tdef get_context_data(self, **kwargs):",
+              "\t\tcontext = super().get_context_data(**kwargs)\n",
+
+              "\t\t\n",
+
+              "\t\treturn context\n"
+    ],
+    "description": "Uma UpdateView"
   },
   
   "Uma view com retorno json": {

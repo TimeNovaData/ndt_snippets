@@ -29,10 +29,11 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 ### Views snippets
 
-| Abreviação          | Descrição                 |
-| ------------------- | ------------------------- |
-| view_json_nova_data | Uma view com retorno json |
-| list_view_nova_data | Uma ListView              |
+| Abreviação            | Descrição                 |
+| --------------------- | ------------------------- |
+| view_json_nova_data   | Uma view com retorno json |
+| list_view_nova_data   | Uma ListView              |
+| update_view_nova_data | Uma UpdateView            |
 
 ## [0.0.6]
 
