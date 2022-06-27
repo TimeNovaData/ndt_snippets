@@ -124,10 +124,11 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | args_kwargs_nova_data           | Args kwargs                        |
 | create_view_nova_data           | Uma CreateView                     |
 | filter_nova_data                | Consulta filter                    |
+| filter_select_related_nova_data | Consulta filter com select_related |
 | get_nova_data                   | Consulta get                       |
 | get_context_data_nova_data      | Função get context data            |
-| filter_select_related_nova_data | Consulta filter com select_related |
 | get_select_related_nova_data    | Consulta get com select_related    |
+| list_view_nova_data             | Uma ListView                       |
 | view_json_nova_data             | Uma view com retorno json          |
 | view_nova_data                  | Uma view                           |
 | view_redirect_nova_data         | Uma view com redirect              |

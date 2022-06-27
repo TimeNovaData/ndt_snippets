@@ -31,7 +31,7 @@
       "from django.views.generic.edit import CreateView\n",
 
       "from ..forms import ${1:SuaModel}Form",
-      "from ..models import ${1:SuaModel}\n\n",
+      "from ...models import ${1:SuaModel}\n\n",
 
 
       "class ${1:SuaModel}Create(LoginRequiredMixin, CreateView):",
@@ -102,6 +102,22 @@
       ").get(${3:campo=alguma_coisa})\n"
     ],
     "description": "Consulta get com select_related"
+  },
+  
+  "Uma ListView": {
+    "prefix": "list_view_nova_data",
+    "body": [
+      "from django.contrib.auth.mixins import LoginRequiredMixin",
+      "from django.views.generic.list import ListView\n",
+
+      "from ...models import ${1:SuaModel}\n\n",
+
+
+      "class ${1:SuaModel}ListView(LoginRequiredMixin, ListView):",
+          "\tmodel = ${1:SuaModel}",
+          "\ttemplate_name = '${2:caminho/para/o/template}.html'\n"
+    ],
+    "description": "Uma ListView"
   },
   
   "Uma view com retorno json": {

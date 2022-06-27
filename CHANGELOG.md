@@ -32,6 +32,7 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 | Abreviação          | Descrição                 |
 | ------------------- | ------------------------- |
 | view_json_nova_data | Uma view com retorno json |
+| list_view_nova_data | Uma ListView              |
 
 ## [0.0.6]
 
