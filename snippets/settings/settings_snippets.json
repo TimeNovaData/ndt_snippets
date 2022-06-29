@@ -24,5 +24,18 @@
       "\tDEFAULT_FILE_STORAGE = '${2:pasta_principal}.storage_backends.PublicMediaStorage'\n"
     ],
     "description": "Config AWS"
+  },
+  "Config SMTP": {
+    "prefix": "smtp_nova_data",
+    "body": [
+      "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
+      "EMAIL_USE_TLS = True",
+      "EMAIL_HOST = 'smtp.gmail.com'",
+      "EMAIL_PORT = ${1:port_here}",
+      "EMAIL_HOST_USER = config('EMAIL_HOST_USER')",
+      "EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')",
+      "DEFAULT_FROM_EMAIL = 'Hub Nova Data <${2:default_email_here}>'\n"
+    ],
+    "description": "Config SMTP"
   }
 }

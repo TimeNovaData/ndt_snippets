@@ -103,9 +103,10 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 
 ### Settings snippets
 
-| Abreviação    | Descrição  |
-| ------------- | ---------- |
-| aws_nova_data | Config AWS |
+| Abreviação     | Descrição   |
+| -------------- | ----------- |
+| aws_nova_data  | Config AWS  |
+| smtp_nova_data | Config SMTP |
 
 ## Signals snippets
 

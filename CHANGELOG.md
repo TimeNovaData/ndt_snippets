@@ -34,6 +34,12 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 | ---------------------- | ---------------------------- |
 | enviar_email_nova_data | Função para enviar um e-mail |
 
+### Settings snippets
+
+| Abreviação     | Descrição   |
+| -------------- | ----------- |
+| smtp_nova_data | Config SMTP |
+
 ### Views snippets
 
 | Abreviação            | Descrição                 |
