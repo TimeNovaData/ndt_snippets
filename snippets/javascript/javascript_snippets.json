@@ -1,0 +1,9 @@
+{
+    "Um selector": {
+        "prefix": "selector_nova_data",
+        "body": [
+            "document.querySelector('$1')\n"
+        ],
+        "description": "Um selector"
+    }
+}

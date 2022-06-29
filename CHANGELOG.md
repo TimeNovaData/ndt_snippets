@@ -34,6 +34,12 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 | import_user_nova_data                 | Importação da classe User                      |
 | import_render_nova_data               | Importação da função render                    |
 
+### Javascript snippets
+
+| Abreviação         | Descrição   |
+| ------------------ | ----------- |
+| selector_nova_data | Um selector |
+
 ### Models snippets
 
 | Abreviação             | Descrição                    |

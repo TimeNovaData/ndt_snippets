@@ -38,6 +38,10 @@
         "path": "./snippets/imports/imports_snippets.json"
       },
       {
+        "language": "javascript",
+        "path": "./snippets/javascript/javascript_snippets.json"
+      },
+      {
         "language": "python",
         "path": "./snippets/managers/managers_snippets.json"
       },
