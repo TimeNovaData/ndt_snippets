@@ -65,7 +65,8 @@
 
 
       "class ${1:SuaModel}Delete(LoginRequiredMixin, DeleteView):",
-        "\tmodel = ${1:SuaModel}",
+        "\tmodel = ${1:SuaModel}\n",
+
         "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
 
         "\tdef get_success_url(self):",    
@@ -80,6 +81,30 @@
           "\t\treturn context\n"
     ],
     "description": "Uma DeleteView"
+  },
+
+  "Uma DetailView": {
+    "prefix": "detail_view_nova_data",
+    "body": [
+      "from django.contrib.auth.mixins import LoginRequiredMixin",
+      "from django.views.generic import DetailViewNovaData\n",
+
+      "from ...models import ${1:SuaModel}\n\n",
+
+
+      "class ${1:SuaModel}CompraDetailView(LoginRequiredMixin, DetailView):",
+      "\tmodel = ${1:SuaModel}\n",
+
+      "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
+
+        "\tdef get_context_data(self, **kwargs):",
+          "\t\tcontext = super().get_context_data(**kwargs)\n",
+          
+          "\t\t\n",
+
+          "\t\treturn context\n"
+    ],
+    "description": "Uma DetailView"
   },
 
   "Consulta filter": {
