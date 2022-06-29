@@ -38,6 +38,7 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 | Abreviação            | Descrição                 |
 | --------------------- | ------------------------- |
+| delete_view_nova_data | Uma DeleteView            |
 | view_json_nova_data   | Uma view com retorno json |
 | list_view_nova_data   | Uma ListView              |
 | update_view_nova_data | Uma UpdateView            |

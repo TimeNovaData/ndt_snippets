@@ -130,6 +130,7 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | args_nova_data                  | Args                               |
 | args_kwargs_nova_data           | Args kwargs                        |
 | create_view_nova_data           | Uma CreateView                     |
+| delete_view_nova_data           | Uma DeleteView                     |
 | filter_nova_data                | Consulta filter                    |
 | filter_select_related_nova_data | Consulta filter com select_related |
 | get_nova_data                   | Consulta get                       |
