@@ -34,7 +34,7 @@
       "from ...models import ${1:SuaModel}\n\n",
 
 
-      "class ${1:SuaModel}Create(LoginRequiredMixin, CreateView):",
+      "class ${1:SuaModel}CreateView(LoginRequiredMixin, CreateView):",
         "\tmodel = ${1:SuaModel}\n",
 
         "\tform_class = ${1:SuaModel}Form\n",
@@ -64,7 +64,7 @@
       "from ...models import ${1:SuaModel}\n\n",
 
 
-      "class ${1:SuaModel}Delete(LoginRequiredMixin, DeleteView):",
+      "class ${1:SuaModel}DeleteView(LoginRequiredMixin, DeleteView):",
         "\tmodel = ${1:SuaModel}\n",
 
         "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
@@ -92,7 +92,7 @@
       "from ...models import ${1:SuaModel}\n\n",
 
 
-      "class ${1:SuaModel}CompraDetailView(LoginRequiredMixin, DetailView):",
+      "class ${1:SuaModel}DetailView(LoginRequiredMixin, DetailView):",
       "\tmodel = ${1:SuaModel}\n",
 
       "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
