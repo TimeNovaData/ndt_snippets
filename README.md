@@ -70,13 +70,18 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 
 ## Imports snippets
 
-| Abreviação                            | Descrição                               |
-| ------------------------------------- | --------------------------------------- |
-| import_group_nova_data                | Importação da classe Group              |
-| import_login_required_nova_data       | Importação da função login_required     |
-| import_login_required_mixin_nova_data | Importação da classe LoginRequiredMixin |
-| import_user_nova_data                 | Importação da classe User               |
-| import_render_nova_data               | Importação da função render             |
+| Abreviação                            | Descrição                                      |
+| ------------------------------------- | ---------------------------------------------- |
+| import_create_view_nova_data          | Importação da classe CreateView                |
+| import_delete_view_nova_data          | Importação da classe DeleteView                |
+| import_detail_view_nova_data          | from django.views.generic import DetailView    |
+| import_group_nova_data                | Importação da classe Group                     |
+| import_list_view_nova_data            | from django.views.generic.list import ListView |
+| import_login_required_nova_data       | Importação da função login_required            |
+| import_login_required_mixin_nova_data | Importação da classe LoginRequiredMixin        |
+| import_update_view_nova_data          | Importação da classe UpdateView                |
+| import_user_nova_data                 | Importação da classe User                      |
+| import_render_nova_data               | Importação da função render                    |
 
 ### Managers snippets
 
