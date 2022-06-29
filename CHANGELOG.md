@@ -15,12 +15,13 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 ### Imports snippets
 
-| Abreviação                      | Descrição                           |
-| ------------------------------- | ----------------------------------- |
-| import_group_nova_data          | Importação da classe Group          |
-| import_login_required_nova_data | Importação da função login_required |
-| import_user_nova_data           | Importação da classe User           |
-| import_render_nova_data         | Importação da função render         |
+| Abreviação                            | Descrição                               |
+| ------------------------------------- | --------------------------------------- |
+| import_group_nova_data                | Importação da classe Group              |
+| import_login_required_nova_data       | Importação da função login_required     |
+| import_login_required_mixin_nova_data | Importação da classe LoginRequiredMixin |
+| import_user_nova_data                 | Importação da classe User               |
+| import_render_nova_data               | Importação da função render             |
 
 ### Models snippets
 

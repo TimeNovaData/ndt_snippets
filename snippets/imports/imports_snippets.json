@@ -15,6 +15,14 @@
         "description": "Importação da função login_required"
     },
 
+    "Importação da classe LoginRequiredMixin": {
+        "prefix": "import_login_required_mixin_nova_data",
+        "body": [
+            "from django.contrib.auth.mixins import LoginRequiredMixin"
+        ],
+        "description": "Importação da classe LoginRequiredMixin"
+    },
+
     "Importação da classe User": {
         "prefix": "import_user_nova_data",
         "body": [
