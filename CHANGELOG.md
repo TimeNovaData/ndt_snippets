@@ -13,6 +13,12 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 | router_initial_nova_data   | Um router inicial   |
 | router_simples_nova_data   | Um router simples   |
 
+### HTML snippets
+
+| Abreviação      | Descrição       |
+| --------------- | --------------- |
+| empty_nova_data | Empty do Django |
+
 ### Imports snippets
 
 | Abreviação                            | Descrição                                      |

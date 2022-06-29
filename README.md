@@ -55,8 +55,9 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | comment_line_nova_data | Comment de uma linha do Django |
 | csrf_nova_data         | CSRF token do Django           |
 | extends_nova_data      | Extends                        |
-| for_nova_data          | For                            |
 | endfor_nova_data       | Endfor                         |
+| empty_nova_data        | Empty do Django                |
+| for_nova_data          | For                            |
 | if_nova_data           | If                             |
 | ifelse_nova_data       | If else                        |
 | if_line_nova_data      | If de uma linha                |
