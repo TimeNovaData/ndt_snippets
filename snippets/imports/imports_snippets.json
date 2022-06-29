@@ -7,6 +7,14 @@
         "description": "Importação da classe Group"
     },
 
+    "Importação da função login_required": {
+        "prefix": "import_login_required_nova_data",
+        "body": [
+            "from django.contrib.auth.decorators import login_required"
+        ],
+        "description": "Importação da função login_required"
+    },
+
     "Importação da classe User": {
         "prefix": "import_user_nova_data",
         "body": [
