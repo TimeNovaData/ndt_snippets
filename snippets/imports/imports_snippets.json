@@ -1,0 +1,81 @@
+{
+    "Importação da classe CreateView": {
+        "prefix": "import_create_view_nova_data",
+        "body": [
+            "from django.views.generic.edit import CreateView"
+        ],
+        "description": "Importação da classe CreateView"
+    },
+
+    "Importação da classe DeleteView": {
+        "prefix": "import_delete_view_nova_data",
+        "body": [
+            "from django.views.generic.edit import DeleteView"
+        ],
+        "description": "Importação da classe DeleteView"
+    },
+
+    "Importação da classe DetailView": {
+        "prefix": "import_detail_view_nova_data",
+        "body": [
+            "from django.views.generic import DetailView"
+        ],
+        "description": "Importação da classe DetailView"
+    },
+
+    "Importação da classe Group": {
+        "prefix": "import_group_nova_data",
+        "body": [
+            "from django.contrib.auth.models import Group"
+        ],
+        "description": "Importação da classe Group"
+    },
+
+    "Importação da classe ListView": {
+        "prefix": "import_list_view_nova_data",
+        "body": [
+            "from django.views.generic.list import ListView"
+        ],
+        "description": "Importação da classe ListView"
+    },
+
+    "Importação da função login_required": {
+        "prefix": "import_login_required_nova_data",
+        "body": [
+            "from django.contrib.auth.decorators import login_required"
+        ],
+        "description": "Importação da função login_required"
+    },
+
+    "Importação da classe LoginRequiredMixin": {
+        "prefix": "import_login_required_mixin_nova_data",
+        "body": [
+            "from django.contrib.auth.mixins import LoginRequiredMixin"
+        ],
+        "description": "Importação da classe LoginRequiredMixin"
+    },
+
+    "Importação da classe UpdateView": {
+        "prefix": "import_update_view_nova_data",
+        "body": [
+            "from django.views.generic.edit import UpdateView"
+        ],
+        "description": "Importação da classe UpdateView"
+    },
+
+    "Importação da classe User": {
+        "prefix": "import_user_nova_data",
+        "body": [
+            "from django.contrib.auth.models import User"
+        ],
+        "description": "Importação da classe User"
+    },
+
+    "Importação da função render": {
+        "prefix": "import_render_nova_data",
+        "body": [
+            "from django.shortcuts import render"
+        ],
+        "description": "Importação da função render"
+    }
+}

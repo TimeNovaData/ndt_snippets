@@ -1,0 +1,63 @@
+{
+    "Um model serializer": {
+        "prefix": "model_serializer_nova_data",
+        "body": [
+            "from rest_framework import serializers\n",
+
+            "from ...models import ${1:NomeModel}\n\n",
+
+
+            "class ${1:NomeModel}Serializer(serializers.ModelSerializer):",
+                "\tclass Meta:",
+                    "\t\tmodel = ${1:NomeModel}",
+                    "\t\tfields = '__all__'\n"
+        ],
+        "description": "Um model serializer"
+    },
+
+    "Um model viewset": {
+        "prefix": "model_viewset_nova_data",
+        "body": [
+            "from rest_framework import filters, viewsets",
+            "from rest_framework.permissions import IsAuthenticated\n",
+
+            "from ...models import ${1:NomeModel}",
+            "from .${2:arquivo_serializer} import ${1:NomeModel}Serializer\n\n",
+
+
+            "class ${1:NomeModel}ViewSet(viewsets.ModelViewSet):",
+                "\tqueryset = ${1:NomeModel}.objects.all()",
+                "\tserializer_class = ${1:NomeModel}Serializer",
+                "\tpermission_classes = [IsAuthenticated]\n",
+
+                "\tfilter_backends = [filters.SearchFilter]\n",
+
+                "\tsearch_fields = [",
+                    "\t\t",
+                "\t]\n"
+
+        ],
+        "description": "Um model viewset"
+    },
+
+    "Um router inicial": {
+        "prefix": "router_initial_nova_data",
+        "body": [
+            "from rest_framework import routers\n",
+
+            "${1:nome_router} = routers.DefaultRouter()",
+            "${1:nome_router}.register('${2/[\\_]/-/g}', ${3:ViewSetName}, basename='${2}')"
+
+        ],
+        "description": "Um router inicial"
+    },
+
+    "Um router simples": {
+        "prefix": "router_simples_nova_data",
+        "body": [
+            "${1:nome_router}.register('${2/[\\_]/-/g}', ${3:ViewSetName}, basename='${2}')"
+
+        ],
+        "description": "Um router simples"
+    }
+}

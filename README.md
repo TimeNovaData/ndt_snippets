@@ -16,7 +16,6 @@ em seguida temos todas as funcionalidades contidas na nossa extensão, dá uma c
 
 <img src="https://github.com/TimeNovaData/nova_data_snippets/raw/master/static/videos/como_usar.gif" alt="Como usar">
 
-
 # Funcionalidades
 
 Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensão:
@@ -31,6 +30,15 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | propriedade_admin_nova_data   | Propriedade do admin       |
 | stacked_inline_nova_data      | Stacked inline             |
 | tabular_inline_nova_data      | Tabular inline             |
+
+## API snippets
+
+| Abreviação                 | Descrição           |
+| -------------------------- | ------------------- |
+| model_serializer_nova_data | Um model serializer |
+| model_viewset_nova_data    | Um model viewset    |
+| router_initial_nova_data   | Um router inicial   |
+| router_simples_nova_data   | Um router simples   |
 
 ### Forms snippets
 
@@ -47,8 +55,9 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | comment_line_nova_data | Comment de uma linha do Django |
 | csrf_nova_data         | CSRF token do Django           |
 | extends_nova_data      | Extends                        |
-| for_nova_data          | For                            |
 | endfor_nova_data       | Endfor                         |
+| empty_nova_data        | Empty do Django                |
+| for_nova_data          | For                            |
 | if_nova_data           | If                             |
 | ifelse_nova_data       | If else                        |
 | if_line_nova_data      | If de uma linha                |
@@ -60,17 +69,32 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | url_nova_data          | Url                            |
 | urlparam_nova_data     | Url com parâmetro              |
 
+## Imports snippets
+
+| Abreviação                            | Descrição                                      |
+| ------------------------------------- | ---------------------------------------------- |
+| import_create_view_nova_data          | Importação da classe CreateView                |
+| import_delete_view_nova_data          | Importação da classe DeleteView                |
+| import_detail_view_nova_data          | from django.views.generic import DetailView    |
+| import_group_nova_data                | Importação da classe Group                     |
+| import_list_view_nova_data            | from django.views.generic.list import ListView |
+| import_login_required_nova_data       | Importação da função login_required            |
+| import_login_required_mixin_nova_data | Importação da classe LoginRequiredMixin        |
+| import_update_view_nova_data          | Importação da classe UpdateView                |
+| import_user_nova_data                 | Importação da classe User                      |
+| import_render_nova_data               | Importação da função render                    |
+
+### Javascript snippets
+
+| Abreviação         | Descrição   |
+| ------------------ | ----------- |
+| selector_nova_data | Um selector |
+
 ### Managers snippets
 
 | Abreviação        | Descrição  |
 | ----------------- | ---------- |
 | manager_nova_data | Um manager |
-
-### Settings snippets
-
-| Abreviação    | Descrição  |
-| ------------- | ---------- |
-| aws_nova_data | Config AWS |
 
 ## Models snippets
 
@@ -80,8 +104,16 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | data_atualizacao_nova_data         | Campo data de atualização         |
 | data_criacao_nova_data             | Campo data de criação             |
 | data_criacao_atualizacao_nova_data | Campos data criação e atualização |
+| enviar_email_nova_data             | Função para enviar um e-mail      |
 | model_nova_data                    | Uma model                         |
 | save_nova_data                     | Função save                       |
+
+### Settings snippets
+
+| Abreviação     | Descrição   |
+| -------------- | ----------- |
+| aws_nova_data  | Config AWS  |
+| smtp_nova_data | Config SMTP |
 
 ## Signals snippets
 
@@ -106,17 +138,22 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | args_nova_data                  | Args                               |
 | args_kwargs_nova_data           | Args kwargs                        |
 | create_view_nova_data           | Uma CreateView                     |
+| delete_view_nova_data           | Uma DeleteView                     |
+| detail_view_nova_data           | Uma DetailView                     |
 | filter_nova_data                | Consulta filter                    |
+| filter_select_related_nova_data | Consulta filter com select_related |
 | get_nova_data                   | Consulta get                       |
 | get_context_data_nova_data      | Função get context data            |
-| filter_select_related_nova_data | Consulta filter com select_related |
 | get_select_related_nova_data    | Consulta get com select_related    |
+| list_view_nova_data             | Uma ListView                       |
+| update_view_nova_data           | Uma UpdateView                     |
+| view_json_nova_data             | Uma view com retorno json          |
 | view_nova_data                  | Uma view                           |
 | view_redirect_nova_data         | Uma view com redirect              |
 
 ## Requirements
 
-Essa extensão não possui nenhum pacote como dependência.
+Essa extensão não possui nenhum pacote como dependência a não ser o próprio Django.
 
 <!-- ## Release Notes
 

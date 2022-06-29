@@ -21,8 +21,12 @@
       "\t\t'${3:campos_fk_e_booleanos}",
       "\t]\n",
 
+      "\tlist_select_related = [",
+      "\t\t'${4:campos_dos_campos_fk}",
+      "\t]\n",
+
       "\tautocomplete_fields = [",
-      "\t\t'${4:campos_fk}",
+      "\t\t'${5:campos_fk}",
       "\t]\n"
     ],
     "description": "Um arquivo admin"

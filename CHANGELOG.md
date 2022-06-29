@@ -2,6 +2,66 @@
 
 Acompanhe nossas funcionalidades com o passar do tempo!
 
+## [0.0.7]
+
+### API snippets
+
+| Abreviação                 | Descrição           |
+| -------------------------- | ------------------- |
+| model_serializer_nova_data | Um model serializer |
+| model_viewset_nova_data    | Um model viewset    |
+| router_initial_nova_data   | Um router inicial   |
+| router_simples_nova_data   | Um router simples   |
+
+### HTML snippets
+
+| Abreviação      | Descrição       |
+| --------------- | --------------- |
+| empty_nova_data | Empty do Django |
+
+### Imports snippets
+
+| Abreviação                            | Descrição                                      |
+| ------------------------------------- | ---------------------------------------------- |
+| import_create_view_nova_data          | Importação da classe CreateView                |
+| import_delete_view_nova_data          | Importação da classe DeleteView                |
+| import_detail_view_nova_data          | from django.views.generic import DetailView    |
+| import_group_nova_data                | Importação da classe Group                     |
+| import_list_view_nova_data            | from django.views.generic.list import ListView |
+| import_login_required_nova_data       | Importação da função login_required            |
+| import_login_required_mixin_nova_data | Importação da classe LoginRequiredMixin        |
+| import_update_view_nova_data          | Importação da classe UpdateView                |
+| import_user_nova_data                 | Importação da classe User                      |
+| import_render_nova_data               | Importação da função render                    |
+
+### Javascript snippets
+
+| Abreviação         | Descrição   |
+| ------------------ | ----------- |
+| selector_nova_data | Um selector |
+
+### Models snippets
+
+| Abreviação             | Descrição                    |
+| ---------------------- | ---------------------------- |
+| enviar_email_nova_data | Função para enviar um e-mail |
+
+### Settings snippets
+
+| Abreviação     | Descrição   |
+| -------------- | ----------- |
+| smtp_nova_data | Config SMTP |
+
+### Views snippets
+
+| Abreviação            | Descrição                 |
+| --------------------- | ------------------------- |
+| delete_view_nova_data | Uma DeleteView            |
+| detail_view_nova_data | Uma DetailView            |
+| view_json_nova_data   | Uma view com retorno json |
+| list_view_nova_data   | Uma ListView              |
+| update_view_nova_data | Uma UpdateView            |
+
 ## [0.0.6]
 
 ### Forms snippets

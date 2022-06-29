@@ -2,7 +2,7 @@
   "name": "nova-data-snippets",
   "displayName": "Nova Data Snippets",
   "description": "Snippets com o padrão da nossa empresa para facilitar a sua programação no dia a dia",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "publisher": "NovaDataSnippets",
   "icon": "static/images/logo.png",
   "engines": {
@@ -23,11 +23,23 @@
       },
       {
         "language": "python",
+        "path": "./snippets/api/api_snippets.json"
+      },
+      {
+        "language": "python",
         "path": "./snippets/forms/forms_snippets.json"
       },
       {
         "language": "html",
         "path": "./snippets/html/html_snippets.json"
+      },
+      {
+        "language": "python",
+        "path": "./snippets/imports/imports_snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/javascript_snippets.json"
       },
       {
         "language": "python",

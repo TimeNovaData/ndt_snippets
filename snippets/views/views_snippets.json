@@ -31,17 +31,19 @@
       "from django.views.generic.edit import CreateView\n",
 
       "from ..forms import ${1:SuaModel}Form",
-      "from ..models import ${1:SuaModel}\n\n",
+      "from ...models import ${1:SuaModel}\n\n",
 
 
-      "class ${1:SuaModel}Create(LoginRequiredMixin, CreateView):",
+      "class ${1:SuaModel}CreateView(LoginRequiredMixin, CreateView):",
         "\tmodel = ${1:SuaModel}\n",
 
         "\tform_class = ${1:SuaModel}Form\n",
 
         "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
 
-        "\tsuccess_url = reverse_lazy('${3:name_url}')\n",
+        "\tdef get_success_url(self):",    
+          "\t\tfrom django.http import reverse_lazy",
+          "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
 
         "\tdef get_context_data(self, **kwargs):",
           "\t\tcontext = super().get_context_data(**kwargs)\n",
@@ -51,6 +53,58 @@
           "\t\treturn context\n"
     ],
     "description": "Uma CreateView"
+  },
+
+  "Uma DeleteView": {
+    "prefix": "delete_view_nova_data",
+    "body": [
+      "from django.contrib.auth.mixins import LoginRequiredMixin",
+      "from django.views.generic.edit import DeleteView\n",
+
+      "from ...models import ${1:SuaModel}\n\n",
+
+
+      "class ${1:SuaModel}DeleteView(LoginRequiredMixin, DeleteView):",
+        "\tmodel = ${1:SuaModel}\n",
+
+        "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
+
+        "\tdef get_success_url(self):",    
+          "\t\tfrom django.http import reverse_lazy",
+          "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
+
+        "\tdef get_context_data(self, **kwargs):",
+          "\t\tcontext = super().get_context_data(**kwargs)\n",
+          
+          "\t\t\n",
+
+          "\t\treturn context\n"
+    ],
+    "description": "Uma DeleteView"
+  },
+
+  "Uma DetailView": {
+    "prefix": "detail_view_nova_data",
+    "body": [
+      "from django.contrib.auth.mixins import LoginRequiredMixin",
+      "from django.views.generic import DetailViewNovaData\n",
+
+      "from ...models import ${1:SuaModel}\n\n",
+
+
+      "class ${1:SuaModel}DetailView(LoginRequiredMixin, DetailView):",
+      "\tmodel = ${1:SuaModel}\n",
+
+      "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
+
+        "\tdef get_context_data(self, **kwargs):",
+          "\t\tcontext = super().get_context_data(**kwargs)\n",
+          
+          "\t\t\n",
+
+          "\t\treturn context\n"
+    ],
+    "description": "Uma DetailView"
   },
 
   "Consulta filter": {
@@ -102,6 +156,87 @@
       ").get(${3:campo=alguma_coisa})\n"
     ],
     "description": "Consulta get com select_related"
+  },
+  
+  "Uma ListView": {
+    "prefix": "list_view_nova_data",
+    "body": [
+      "from django.contrib.auth.mixins import LoginRequiredMixin",
+      "from django.views.generic.list import ListView\n",
+
+      "from ...models import ${1:SuaModel}\n\n",
+
+
+      "class ${1:SuaModel}ListView(LoginRequiredMixin, ListView):",
+          "\tmodel = ${1:SuaModel}",
+          "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
+
+          "\tdef get_context_data(self, **kwargs):",
+            "\t\tcontext = super().get_context_data(**kwargs)\n",
+  
+            "\t\t\n",
+  
+            "\t\treturn context\n"
+    ],
+    "description": "Uma ListView"
+  },
+  
+  "Uma UpdateView": {
+    "prefix": "update_view_nova_data",
+    "body": [
+      "from django.contrib.auth.mixins import LoginRequiredMixin",
+      "from django.views.generic.edit import UpdateView\n",
+
+      "from ...models import ${1:SuaModel}\n\n",
+
+
+      "class ${1:SuaModel}UpdateView(LoginRequiredMixin, UpdateView):",
+          "\tmodel = ${1:SuaModel}",
+          "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
+
+          "\tdef get_context_data(self, **kwargs):",
+            "\t\tcontext = super().get_context_data(**kwargs)\n",
+  
+            "\t\t\n",
+  
+            "\t\treturn context\n",
+
+            "\tdef get_success_url(self):",    
+              "\t\tfrom django.http import reverse_lazy",
+              "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
+
+            "\tdef get_context_data(self, **kwargs):",
+              "\t\tcontext = super().get_context_data(**kwargs)\n",
+
+              "\t\t\n",
+
+              "\t\treturn context\n"
+    ],
+    "description": "Uma UpdateView"
+  },
+  
+  "Uma view com retorno json": {
+    "prefix": "view_json_nova_data",
+    "body": [
+      "import json\n",
+
+      "from django.contrib.auth.decorators import login_required",
+      "from django.http import JsonResponse\n",
+
+
+
+      "@login_required",
+      "def $TM_FILENAME_BASE(request):",
+          "\tdata = json.loads(request.body.decode('utf-8'))\n",
+          
+          "\t$1\n",
+          
+          "\tif example:",
+            "\t\treturn JsonResponse({'message': '${2:Mensagem de sucesso}'})",
+          "\telse:",
+            "\t\treturn JsonResponse({'error': '${3:Mensagem de erro}'}) # Padrão aconselhável\n"
+    ],
+    "description": "Uma view com retorno json"
   },
   
   "Uma view": {

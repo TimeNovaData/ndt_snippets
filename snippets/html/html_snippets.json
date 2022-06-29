@@ -61,6 +61,14 @@
 		"description": "Endfor do Django"
 	},
 	
+	"Empty do Django": {
+		"prefix": "empty_nova_data",
+		"body": [
+			"{% empty %}\n"
+		],
+		"description": "Empty do Django"
+	},
+	
 	"If do Django": {
 		"prefix": "if_nova_data",
 		"body": [

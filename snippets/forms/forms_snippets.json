@@ -11,9 +11,7 @@
         "\tclass Meta:",
           "\t\tmodel = ${1:SuaModel}\n",
           
-          "\t\tfields = [",
-            "\t\t\t'__all__',",
-          "\t\t]\n"
+          "\t\tfields = '__all__'\n"
     ],
     "description": "Model Form"
   }
