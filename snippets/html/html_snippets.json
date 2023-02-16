@@ -1,6 +1,6 @@
 {
 	"Bloco do Django": {
-		"prefix": "block_nova_data",
+		"prefix": "ndt_block",
 		"body": [
 			"{% block ${1:nome_bloco} %}",
 				"\t${2:conteudo}",
@@ -10,7 +10,7 @@
 	},
 	
 	"Comment do Django": {
-		"prefix": "comment_nova_data",
+		"prefix": "ndt_comment",
 		"body": [
 			"{% comment %}",
 				"\t${CLIPBOARD}",
@@ -20,7 +20,7 @@
 	},
 	
 	"Comment de uma linha do Django": {
-		"prefix": "comment_line_nova_data",
+		"prefix": "ndt_comment_line",
 		"body": [
 			"{% comment %} ${CLIPBOARD} {% endcomment %}"
 		],
@@ -28,7 +28,7 @@
 	},
 
 	"CSRF token do Django": {
-		"prefix": "csrf_nova_data",
+		"prefix": "ndt_csrf",
 		"body": [
 			"{% csrf_token %}"
 		],
@@ -36,7 +36,7 @@
 	},
 	
 	"Extends do Django": {
-		"prefix": "extends_nova_data",
+		"prefix": "ndt_extends",
 		"body": [
 			"{% extends '${1:caminho/para/o/template}.html' %}"
 		],
@@ -44,7 +44,7 @@
 	},
 	
 	"For do Django": {
-		"prefix": "for_nova_data",
+		"prefix": "ndt_for",
 		"body": [
 			"{% for ${1:variavel} in ${2:variavel_iteravel} %}",
 			"\t${3:conteudo}",
@@ -54,7 +54,7 @@
 	},
 	
 	"Endfor do Django": {
-		"prefix": "endfor_nova_data",
+		"prefix": "ndt_endfor",
 		"body": [
 			"{% endfor %}\n"
 		],
@@ -62,7 +62,7 @@
 	},
 	
 	"Empty do Django": {
-		"prefix": "empty_nova_data",
+		"prefix": "ndt_empty",
 		"body": [
 			"{% empty %}\n"
 		],
@@ -70,7 +70,7 @@
 	},
 	
 	"If do Django": {
-		"prefix": "if_nova_data",
+		"prefix": "ndt_if",
 		"body": [
 			"{% if ${1:condicao} %}",
 				"\t${2:conteudo}",
@@ -80,7 +80,7 @@
 	},
 	
 	"If else do Django": {
-		"prefix": "ifelse_nova_data",
+		"prefix": "ndt_ifelse",
 		"body": [
 			"{% if ${1:condicao} %}",
 				"\t${2:conteudo}",
@@ -92,7 +92,7 @@
 	},
 	
 	"If de uma linha do Django": {
-		"prefix": "if_line_nova_data",
+		"prefix": "ndt_if_line",
 		"body": [
 			"{% if ${1:condicao} %} ${2:conteudo} {% endif %}"
 		],
@@ -100,7 +100,7 @@
 	},
 	
 	"If else de uma linha do Django": {
-		"prefix": "ifelse_line_nova_data",
+		"prefix": "ndt_ifelse_line",
 		"body": [
 			"{% if ${1:condicao} %} ${2:conteudo} {% else %} ${3:mais conteudo} {% endif %}"
 		],
@@ -108,7 +108,7 @@
 	},
 	
 	"Else do Django": {
-		"prefix": "else_nova_data",
+		"prefix": "ndt_else",
 		"body": [
 			"{% else %}",
 			"\t${1:conteudo}"
@@ -117,7 +117,7 @@
 	},
 	
 	"Endif do Django": {
-		"prefix": "endif_nova_data",
+		"prefix": "ndt_endif",
 		"body": [
 			"{% endif %}"
 		],
@@ -125,7 +125,7 @@
 	},
 	
 	"Include do Django": {
-		"prefix": "include_nova_data",
+		"prefix": "ndt_include",
 		"body": [
 			"{% include '${1:caminho/para/o/template}.html' %}"
 		],
@@ -133,7 +133,7 @@
 	},
 	
 	"Load do Django": {
-		"prefix": "load_nova_data",
+		"prefix": "ndt_load",
 		"body": [
 			"{% load ${1:nome_biblioteca} %}"
 		],
@@ -141,7 +141,7 @@
 	},
 	
 	"Url do Django": {
-		"prefix": "url_nova_data",
+		"prefix": "ndt_url",
 		"body": [
 			"{% url '${1:name_da_sua_url}' %}"
 		],
@@ -149,7 +149,7 @@
 	},
 	
 	"Url com parâmetro do Django": {
-		"prefix": "urlparam_nova_data",
+		"prefix": "ndt_urlparam",
 		"body": [
 			"{% url '${1:name_da_sua_url}' ${2:parametro} %}"
 		],

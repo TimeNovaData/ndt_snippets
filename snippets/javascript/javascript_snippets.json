@@ -1,6 +1,6 @@
 {
     "Um selector": {
-        "prefix": "selector_nova_data",
+        "prefix": "ndt_selector",
         "body": [
             "document.querySelector('$1')\n"
         ],

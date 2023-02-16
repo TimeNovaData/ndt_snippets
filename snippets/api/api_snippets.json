@@ -1,6 +1,6 @@
 {
     "Um model serializer": {
-        "prefix": "model_serializer_nova_data",
+        "prefix": "ndt_model_serializer",
         "body": [
             "from rest_framework import serializers\n",
 
@@ -16,7 +16,7 @@
     },
 
     "Um model viewset": {
-        "prefix": "model_viewset_nova_data",
+        "prefix": "ndt_model_viewset",
         "body": [
             "from rest_framework import filters, viewsets",
             "from rest_framework.permissions import IsAuthenticated\n",
@@ -41,7 +41,7 @@
     },
 
     "Um router inicial": {
-        "prefix": "router_initial_nova_data",
+        "prefix": "ndt_router_initial",
         "body": [
             "from rest_framework import routers\n",
 
@@ -53,7 +53,7 @@
     },
 
     "Um router simples": {
-        "prefix": "router_simples_nova_data",
+        "prefix": "ndt_router_simples",
         "body": [
             "${1:nome_router}.register('${2/[\\_]/-/g}', ${3:ViewSetName}, basename='${2}')"
 

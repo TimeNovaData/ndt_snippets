@@ -1,6 +1,6 @@
 {
   "Um path com classe": {
-    "prefix": "path_classe_nova_data",
+    "prefix": "ndt_path_classe",
     "body": [
       "path('${1/[\\_]/-/g}/', ${2:NomeClasse}.as_view(), name='${3:nome_view}'),"
     ],
@@ -8,24 +8,24 @@
   },
 
   "Um path com include": {
-    "prefix": "path_include_nova_data",
+    "prefix": "ndt_path_include",
     "body": ["path('${1:nome-app}/', include('${2:nome_app}.urls')),"],
     "description": "Um path com include"
   },
 
   "Um path simples": {
-    "prefix": "path_simples_nova_data",
+    "prefix": "ndt_path_simples",
     "body": ["path('${1/[\\_]/-/g}/', ${2:nome_view}, name='${2:nome_view}'),"],
     "description": "Um path simples"
   },
 
   "Um urls.py": {
-    "prefix": "urls_nova_data",
+    "prefix": "ndt_urls",
     "body": [
       "from django.urls import path\n",
 
       "urlpatterns = [",
-      "\t${1:Escreva 'path_simples_nova_data' ou 'path_classe_nova_data'}",
+      "\t${1:Escreva 'ndt_path_simples' ou 'ndt_path_classe'}",
       "]\n"
     ],
     "description": "Um urls.py"

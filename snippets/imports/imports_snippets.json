@@ -1,6 +1,6 @@
 {
     "Importação da classe CreateView": {
-        "prefix": "import_create_view_nova_data",
+        "prefix": "ndt_import_create_view",
         "body": [
             "from django.views.generic.edit import CreateView"
         ],
@@ -8,7 +8,7 @@
     },
 
     "Importação da classe DeleteView": {
-        "prefix": "import_delete_view_nova_data",
+        "prefix": "ndt_import_delete_view",
         "body": [
             "from django.views.generic.edit import DeleteView"
         ],
@@ -16,7 +16,7 @@
     },
 
     "Importação da classe DetailView": {
-        "prefix": "import_detail_view_nova_data",
+        "prefix": "ndt_import_detail_view",
         "body": [
             "from django.views.generic import DetailView"
         ],
@@ -24,7 +24,7 @@
     },
 
     "Importação da classe Group": {
-        "prefix": "import_group_nova_data",
+        "prefix": "ndt_import_group",
         "body": [
             "from django.contrib.auth.models import Group"
         ],
@@ -32,7 +32,7 @@
     },
 
     "Importação da classe ListView": {
-        "prefix": "import_list_view_nova_data",
+        "prefix": "ndt_import_list_view",
         "body": [
             "from django.views.generic.list import ListView"
         ],
@@ -40,7 +40,7 @@
     },
 
     "Importação da função login_required": {
-        "prefix": "import_login_required_nova_data",
+        "prefix": "ndt_import_login_required",
         "body": [
             "from django.contrib.auth.decorators import login_required"
         ],
@@ -48,7 +48,7 @@
     },
 
     "Importação da classe LoginRequiredMixin": {
-        "prefix": "import_login_required_mixin_nova_data",
+        "prefix": "ndt_import_login_required_mixin",
         "body": [
             "from django.contrib.auth.mixins import LoginRequiredMixin"
         ],
@@ -56,7 +56,7 @@
     },
 
     "Importação da classe UpdateView": {
-        "prefix": "import_update_view_nova_data",
+        "prefix": "ndt_import_update_view",
         "body": [
             "from django.views.generic.edit import UpdateView"
         ],
@@ -64,7 +64,7 @@
     },
 
     "Importação da classe User": {
-        "prefix": "import_user_nova_data",
+        "prefix": "ndt_import_user",
         "body": [
             "from django.contrib.auth.models import User"
         ],
@@ -72,7 +72,7 @@
     },
 
     "Importação da função render": {
-        "prefix": "import_render_nova_data",
+        "prefix": "ndt_import_render",
         "body": [
             "from django.shortcuts import render"
         ],

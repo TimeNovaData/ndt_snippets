@@ -1,9 +1,9 @@
 {
-  "name": "nova-data-snippets",
-  "displayName": "Nova Data Snippets",
+  "name": "ndt-snippets",
+  "displayName": "ndt snippets",
   "description": "Snippets com o padrão da nossa empresa para facilitar a sua programação no dia a dia",
   "version": "0.0.7",
-  "publisher": "NovaDataSnippets",
+  "publisher": "ndtSnippets",
   "icon": "static/images/logo.png",
   "engines": {
     "vscode": "^1.65.0"

@@ -1,6 +1,6 @@
 {
   "Um manager": {
-    "prefix": "manager_nova_data",
+    "prefix": "ndt_manager",
     "body": [
       "from django.db import models\n\n",
 

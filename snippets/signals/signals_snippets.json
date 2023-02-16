@@ -1,6 +1,6 @@
 {
   "Um signal post_save": {
-    "prefix": "signal_post_save_nova_data",
+    "prefix": "ndt_signal_post_save",
     "body": [
       "from django.db.models.signals import post_save",
       "from django.dispatch import receiver\n",

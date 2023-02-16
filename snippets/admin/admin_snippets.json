@@ -1,6 +1,6 @@
 {
   "Um arquivo admin": {
-    "prefix": "admin_nova_data",
+    "prefix": "ndt_admin",
     "body": [
       "from django.contrib import admin\n",
       "from ..models import ${1:NomeDaSuaModel}\n\n",
@@ -33,7 +33,7 @@
   },
 
   "Fieldsets": {
-    "prefix": "fieldsets_nova_data",
+    "prefix": "ndt_fieldsets",
     "body": [
       "fieldsets = [",
       "\t('Dados principais', {'fields': [",
@@ -48,7 +48,7 @@
   },
 
   "Função get_readonly_fields": {
-    "prefix": "get_readonly_fields_nova_data",
+    "prefix": "ndt_get_readonly_fields",
     "body": [
         "def get_readonly_fields(self, request, obj=None):",
         "\tlista_fields = []\n",
@@ -59,7 +59,7 @@
   },
 
   "Propriedade do admin": {
-    "prefix": "propriedade_admin_nova_data",
+    "prefix": "ndt_propriedade_admin",
     "body": [
       "${1:nome_propriedade} = [",
         "\t'${2:atributo}",
@@ -69,7 +69,7 @@
   },
 
   "Stacked inline": {
-    "prefix": "stacked_inline_nova_data",
+    "prefix": "ndt_stacked_inline",
     "body": [
       "from django.contrib import admin\n",
 
@@ -84,7 +84,7 @@
   },
 
   "Tabular inline": {
-    "prefix": "tabular_inline_nova_data",
+    "prefix": "ndt_tabular_inline",
     "body": [
       "from django.contrib import admin\n",
 

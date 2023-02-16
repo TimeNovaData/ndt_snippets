@@ -1,6 +1,6 @@
 {
   "CHOICES field": {
-    "prefix": "choices_nova_data",
+    "prefix": "ndt_choices",
     "body": [
       "${1:NOME_CHOICES} = (",
       "\t('${2:Nome da opção}', '${2:Nome da opção}'),",
@@ -10,7 +10,7 @@
   },
 
   "Campo data de atualização": {
-    "prefix": "data_atualizacao_nova_data",
+    "prefix": "ndt_data_atualizacao",
     "body": [
       "data_atualizacao = models.DateTimeField(",
       "\tverbose_name='Data de atualização',",
@@ -21,7 +21,7 @@
   },
 
   "Campo data de criação": {
-    "prefix": "data_criacao_nova_data",
+    "prefix": "ndt_data_criacao",
     "body": [
       "data_criacao = models.DateTimeField(",
       "\tverbose_name='Data de criação',",
@@ -32,7 +32,7 @@
   },
 
   "Campos data criação e atualização": {
-    "prefix": "data_criacao_atualizacao_nova_data",
+    "prefix": "ndt_data_criacao_atualizacao",
     "body": [
       "data_criacao = models.DateTimeField(",
       "\tverbose_name='Data de criação',",
@@ -48,7 +48,7 @@
   },
 
   "Função para enviar um e-mail": {
-    "prefix": "enviar_email_nova_data",
+    "prefix": "ndt_enviar_email",
     "body": [
       "def ${1:nome_funcao}(self):",
         "\tfrom emails.models import MensagemEmail, TemplateEmail\n",
@@ -64,7 +64,7 @@
   },
 
   "Uma model": {
-    "prefix": "model_nova_data",
+    "prefix": "ndt_model",
     "body": [
       "from django.db import models\n\n",
 
@@ -91,7 +91,7 @@
   },
 
   "Função save": {
-    "prefix": "save_nova_data",
+    "prefix": "ndt_save",
     "body": [
       "def save(self, *args, **kwargs):",
       "\tuser = get_current_user()",

@@ -1,6 +1,6 @@
 {
   "Consulta all": {
-    "prefix": "all_nova_data",
+    "prefix": "ndt_all",
     "body": [
       "${1:SeuObjeto}.objects.all()\n"
     ],
@@ -8,7 +8,7 @@
   },
 
   "Args": {
-    "prefix": "args_nova_data",
+    "prefix": "ndt_args",
     "body": [
       "*args"
     ],
@@ -16,7 +16,7 @@
   },
 
   "Args kwargs": {
-    "prefix": "args_kwargs_nova_data",
+    "prefix": "ndt_args_kwargs",
     "body": [
       "*args, **kwargs"
     ],
@@ -24,7 +24,7 @@
   },
 
   "Uma CreateView": {
-    "prefix": "create_view_nova_data",
+    "prefix": "ndt_create_view",
     "body": [
       "from django.contrib.auth.mixins import LoginRequiredMixin",
       "from django.urls import reverse_lazy",
@@ -56,7 +56,7 @@
   },
 
   "Uma DeleteView": {
-    "prefix": "delete_view_nova_data",
+    "prefix": "ndt_delete_view",
     "body": [
       "from django.contrib.auth.mixins import LoginRequiredMixin",
       "from django.views.generic.edit import DeleteView\n",
@@ -84,7 +84,7 @@
   },
 
   "Uma DetailView": {
-    "prefix": "detail_view_nova_data",
+    "prefix": "ndt_detail_view",
     "body": [
       "from django.contrib.auth.mixins import LoginRequiredMixin",
       "from django.views.generic import DetailViewNovaData\n",
@@ -108,7 +108,7 @@
   },
 
   "Consulta filter": {
-    "prefix": "filter_nova_data",
+    "prefix": "ndt_filter",
     "body": [
       "${1:SeuObjeto}.objects.filter(",
         "\t${2:campo=alguma_coisa}",
@@ -118,7 +118,7 @@
   },
 
   "Consulta get": {
-    "prefix": "get_nova_data",
+    "prefix": "ndt_get",
     "body": [
       "${1:SeuObjeto}.objects.get(${2:campo=alguma_coisa})\n"
     ],
@@ -126,7 +126,7 @@
   },
 
   "Função get context data": {
-    "prefix": "get_context_data_nova_data",
+    "prefix": "ndt_get_context_data",
     "body": [
       "def get_context_data(self, **kwargs):",
         "\tcontext = super().get_context_data(**kwargs)\n",
@@ -139,7 +139,7 @@
   },
 
   "Consulta filter com select_related": {
-    "prefix": "filter_select_related_nova_data",
+    "prefix": "ndt_filter_select_related",
     "body": [
       "${1:SeuObjeto}.objects.select_related(",
         "\t'${2:campos_fk_que_serao_usados}",
@@ -149,7 +149,7 @@
   },
 
   "Consulta get com select_related": {
-    "prefix": "get_select_related_nova_data",
+    "prefix": "ndt_get_select_related",
     "body": [
       "${1:SeuObjeto}.objects.select_related(",
         "\t'${2:campos_fk_que_serao_usados}",
@@ -159,7 +159,7 @@
   },
   
   "Uma ListView": {
-    "prefix": "list_view_nova_data",
+    "prefix": "ndt_list_view",
     "body": [
       "from django.contrib.auth.mixins import LoginRequiredMixin",
       "from django.views.generic.list import ListView\n",
@@ -182,7 +182,7 @@
   },
   
   "Uma UpdateView": {
-    "prefix": "update_view_nova_data",
+    "prefix": "ndt_update_view",
     "body": [
       "from django.contrib.auth.mixins import LoginRequiredMixin",
       "from django.views.generic.edit import UpdateView\n",
@@ -216,7 +216,7 @@
   },
   
   "Uma view com retorno json": {
-    "prefix": "view_json_nova_data",
+    "prefix": "ndt_view_json",
     "body": [
       "import json\n",
 
@@ -240,7 +240,7 @@
   },
   
   "Uma view": {
-    "prefix": "view_nova_data",
+    "prefix": "ndt_view",
     "body": [
       "from django.contrib.auth.decorators import login_required",
       "from django.shortcuts import render\n\n",
@@ -261,7 +261,7 @@
   },
   
   "Uma view com redirect": {
-    "prefix": "view_redirect_nova_data",
+    "prefix": "ndt_view_redirect",
     "body": [
       "from django.contrib.auth.decorators import login_required",
       "from django.shortcuts import redirect",

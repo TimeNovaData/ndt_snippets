@@ -6,135 +6,135 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 ### API snippets
 
-| Abreviação                 | Descrição           |
-| -------------------------- | ------------------- |
-| model_serializer_nova_data | Um model serializer |
-| model_viewset_nova_data    | Um model viewset    |
-| router_initial_nova_data   | Um router inicial   |
-| router_simples_nova_data   | Um router simples   |
+| Abreviação           | Descrição           |
+| -------------------- | ------------------- |
+| ndt_model_serializer | Um model serializer |
+| ndt_model_viewset    | Um model viewset    |
+| ndt_router_initial   | Um router inicial   |
+| ndt_router_simples   | Um router simples   |
 
 ### HTML snippets
 
-| Abreviação      | Descrição       |
-| --------------- | --------------- |
-| empty_nova_data | Empty do Django |
+| Abreviação | Descrição       |
+| ---------- | --------------- |
+| ndt_empty  | Empty do Django |
 
 ### Imports snippets
 
-| Abreviação                            | Descrição                                      |
-| ------------------------------------- | ---------------------------------------------- |
-| import_create_view_nova_data          | Importação da classe CreateView                |
-| import_delete_view_nova_data          | Importação da classe DeleteView                |
-| import_detail_view_nova_data          | from django.views.generic import DetailView    |
-| import_group_nova_data                | Importação da classe Group                     |
-| import_list_view_nova_data            | from django.views.generic.list import ListView |
-| import_login_required_nova_data       | Importação da função login_required            |
-| import_login_required_mixin_nova_data | Importação da classe LoginRequiredMixin        |
-| import_update_view_nova_data          | Importação da classe UpdateView                |
-| import_user_nova_data                 | Importação da classe User                      |
-| import_render_nova_data               | Importação da função render                    |
+| Abreviação                      | Descrição                                      |
+| ------------------------------- | ---------------------------------------------- |
+| ndt_import_create_view          | Importação da classe CreateView                |
+| ndt_import_delete_view          | Importação da classe DeleteView                |
+| ndt_import_detail_view          | from django.views.generic import DetailView    |
+| ndt_import_group                | Importação da classe Group                     |
+| ndt_import_list_view            | from django.views.generic.list import ListView |
+| ndt_import_login_required       | Importação da função login_required            |
+| ndt_import_login_required_mixin | Importação da classe LoginRequiredMixin        |
+| ndt_import_update_view          | Importação da classe UpdateView                |
+| ndt_import_user                 | Importação da classe User                      |
+| ndt_import_render               | Importação da função render                    |
 
 ### Javascript snippets
 
-| Abreviação         | Descrição   |
-| ------------------ | ----------- |
-| selector_nova_data | Um selector |
+| Abreviação   | Descrição   |
+| ------------ | ----------- |
+| ndt_selector | Um selector |
 
 ### Models snippets
 
-| Abreviação             | Descrição                    |
-| ---------------------- | ---------------------------- |
-| enviar_email_nova_data | Função para enviar um e-mail |
+| Abreviação       | Descrição                    |
+| ---------------- | ---------------------------- |
+| ndt_enviar_email | Função para enviar um e-mail |
 
 ### Settings snippets
 
-| Abreviação     | Descrição   |
-| -------------- | ----------- |
-| smtp_nova_data | Config SMTP |
+| Abreviação | Descrição   |
+| ---------- | ----------- |
+| ndt_smtp   | Config SMTP |
 
 ### Views snippets
 
-| Abreviação            | Descrição                 |
-| --------------------- | ------------------------- |
-| delete_view_nova_data | Uma DeleteView            |
-| detail_view_nova_data | Uma DetailView            |
-| view_json_nova_data   | Uma view com retorno json |
-| list_view_nova_data   | Uma ListView              |
-| update_view_nova_data | Uma UpdateView            |
+| Abreviação      | Descrição                 |
+| --------------- | ------------------------- |
+| ndt_delete_view | Uma DeleteView            |
+| ndt_detail_view | Uma DetailView            |
+| ndt_view_json   | Uma view com retorno json |
+| ndt_list_view   | Uma ListView              |
+| ndt_update_view | Uma UpdateView            |
 
 ## [0.0.6]
 
 ### Forms snippets
 
-| Abreviação           | Descrição  |
-| -------------------- | ---------- |
-| model_form_nova_data | Model Form |
+| Abreviação     | Descrição  |
+| -------------- | ---------- |
+| ndt_model_form | Model Form |
 
 ### HTML snippets
 
-| Abreviação             | Descrição                      |
-| ---------------------- | ------------------------------ |
-| comment_line_nova_data | Comment de uma linha do Django |
-| csrf_nova_data         | CSRF token do Django           |
-| load_nova_data         | Load do Django                 |
+| Abreviação       | Descrição                      |
+| ---------------- | ------------------------------ |
+| ndt_comment_line | Comment de uma linha do Django |
+| ndt_csrf         | CSRF token do Django           |
+| ndt_load         | Load do Django                 |
 
 ### Managers snippets
 
-| Abreviação        | Descrição  |
-| ----------------- | ---------- |
-| manager_nova_data | Um manager |
+| Abreviação  | Descrição  |
+| ----------- | ---------- |
+| ndt_manager | Um manager |
 
 ### Settings snippets
 
-| Abreviação    | Descrição  |
-| ------------- | ---------- |
-| aws_nova_data | Config AWS |
+| Abreviação | Descrição  |
+| ---------- | ---------- |
+| ndt_aws    | Config AWS |
 
 ### Views snippets
 
-| Abreviação                 | Descrição               |
-| -------------------------- | ----------------------- |
-| args_nova_data             | Args                    |
-| args_kwargs_nova_data      | Args kwargs             |
-| create_view_nova_data      | Uma CreateView          |
-| get_context_data_nova_data | Função get context data |
+| Abreviação           | Descrição               |
+| -------------------- | ----------------------- |
+| ndt_args             | Args                    |
+| ndt_args_kwargs      | Args kwargs             |
+| ndt_create_view      | Uma CreateView          |
+| ndt_get_context_data | Função get context data |
 
 ## [0.0.4]
 
 ### HTML snippets
 
-| Abreviação            | Descrição            |
-| --------------------- | -------------------- |
-| block_nova_data       | Block simples        |
-| comment_nova_data     | Comment              |
-| extends_nova_data     | Extends              |
-| for_nova_data         | For                  |
-| endfor_nova_data      | Endfor               |
-| if_nova_data          | If                   |
-| ifelse_nova_data      | If else              |
-| if_line_nova_data     | If de uma linha      |
-| ifelse_line_nova_data | If else de uma linha |
-| else_nova_data        | Else                 |
-| endif_nova_data       | Endif                |
-| include_nova_data     | Include              |
-| url_nova_data         | Url                  |
-| urlparam_nova_data    | Url com parâmetro    |
+| Abreviação      | Descrição            |
+| --------------- | -------------------- |
+| ndt_block       | Block simples        |
+| ndt_comment     | Comment              |
+| ndt_extends     | Extends              |
+| ndt_for         | For                  |
+| ndt_endfor      | Endfor               |
+| ndt_if          | If                   |
+| ndt_ifelse      | If else              |
+| ndt_if_line     | If de uma linha      |
+| ndt_ifelse_line | If else de uma linha |
+| ndt_else        | Else                 |
+| ndt_endif       | Endif                |
+| ndt_include     | Include              |
+| ndt_url         | Url                  |
+| ndt_urlparam    | Url com parâmetro    |
 
 ## URLs snippets
 
-| Abreviação             | Descrição                    |
-| ---------------------- | ---------------------------- |
-| path_classe_nova_data  | Um path com classe (upgrade) |
-| path_simples_nova_data | Um path simples (upgrade)    |
+| Abreviação       | Descrição                    |
+| ---------------- | ---------------------------- |
+| ndt_path_classe  | Um path com classe (upgrade) |
+| ndt_path_simples | Um path simples (upgrade)    |
 
 ### Views snippets
 
-| Abreviação                      | Descrição                          |
-| ------------------------------- | ---------------------------------- |
-| all_nova_data                   | Consulta all                       |
-| filter_nova_data                | Consulta filter                    |
-| get_nova_data                   | Consulta get                       |
-| filter_select_related_nova_data | Consulta filter com select_related |
-| get_select_related_nova_data    | Consulta get com select_related    |
-| view_nova_data                  | Uma view (upgrade)                 |
-| view_redirect_nova_data         | Uma view com redirect              |
+| Abreviação                | Descrição                          |
+| ------------------------- | ---------------------------------- |
+| ndt_all                   | Consulta all                       |
+| ndt_filter                | Consulta filter                    |
+| ndt_get                   | Consulta get                       |
+| ndt_filter_select_related | Consulta filter com select_related |
+| ndt_get_select_related    | Consulta get com select_related    |
+| ndt_view                  | Uma view (upgrade)                 |
+| ndt_view_redirect         | Uma view com redirect              |
