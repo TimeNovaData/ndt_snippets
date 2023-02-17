@@ -2,6 +2,12 @@
 
 Acompanhe nossas funcionalidades com o passar do tempo!
 
+## [0.0.8]
+
+1. Mudamos nosso nome para ndt snippets!
+2. Para criar um snippet, basta digitar ndt_alguma coisa e apertar tab!
+3. Ajustes e bugs corrigidos!
+
 ## [0.0.7]
 
 ### API snippets
