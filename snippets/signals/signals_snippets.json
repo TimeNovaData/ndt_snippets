@@ -8,7 +8,8 @@
       "from ..models import ${1:NomeDaSuaModel}\n\n",
 
       "@receiver(post_save, sender=${1:NomeDaSuaModel})",
-      "def ${2:nome_do_seu_signal}(sender, instance, created, **kwargs):",
+      "def ${2:nome_model}_post_save(sender, instance, created, **kwargs):",
+      "\t'''Realiza ações após a model ${1:NomeDaSuaModel} ser salva.'''",
       "\tif created:",
       "\t\tinstance.${3:nome_da_sua_funcao}()\n"
     ],
