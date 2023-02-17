@@ -9,9 +9,14 @@
       
       "class ${1:SuaModel}Form(forms.ModelForm):",
         "\tclass Meta:",
+          "\t\t'''Sub classe para definir meta atributos da classe principal.'''\n",
           "\t\tmodel = ${1:SuaModel}\n",
           
-          "\t\tfields = '__all__'\n"
+          "\t\tfields = '__all__'\n",
+
+        "\tdef __init__(self, *args, **kwargs):",
+            "\t\t'''Método para executarmos ações ao iniciar o form.'''",
+            "\t\tsuper(CaixaBancoForm, self).__init__(*args, **kwargs)"
     ],
     "description": "Model Form"
   }
