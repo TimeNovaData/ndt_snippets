@@ -29,7 +29,7 @@
       "from django.contrib.auth.mixins import LoginRequiredMixin",
       "from django.views.generic.edit import CreateView\n",
 
-      "from ..forms import ${1:SuaModel}Form",
+      "from ...forms import ${1:SuaModel}Form",
       "from ...models import ${1:SuaModel}\n\n",
 
 
