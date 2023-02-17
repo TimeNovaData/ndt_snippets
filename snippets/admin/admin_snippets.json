@@ -51,6 +51,7 @@
     "prefix": "ndt_get_readonly_fields",
     "body": [
         "def get_readonly_fields(self, request, obj=None):",
+        "\t'''Função para definir os campos readonly do admin.'''",
         "\tlista_fields = []\n",
         "\t${1:Sua lógica aqui}\n",
         "\treturn lista_fields"
