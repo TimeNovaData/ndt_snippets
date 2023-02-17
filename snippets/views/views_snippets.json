@@ -42,7 +42,7 @@
 
         "\tdef get_success_url(self):",
           "\t\t'''Define a url de redirecionamento ao fim da execução.'''",
-          "\t\tfrom django.http import reverse_lazy\n",
+          "\t\tfrom django.urls import reverse_lazy\n",
           "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
 
         "\tdef get_context_data(self, **kwargs):",
@@ -72,7 +72,7 @@
 
         "\tdef get_success_url(self):",    
           "\t\t'''Define a url de redirecionamento ao fim da execução.'''",
-          "\t\tfrom django.http import reverse_lazy\n",
+          "\t\tfrom django.urls import reverse_lazy\n",
           "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
 
         "\tdef get_context_data(self, **kwargs):",
@@ -214,7 +214,7 @@
 
           "\tdef get_success_url(self):",    
             "\t\t'''Define a url de redirecionamento ao fim da execução.'''",
-            "\t\tfrom django.http import reverse_lazy\n",
+            "\t\tfrom django.urls import reverse_lazy\n",
             "\t\treturn reverse_lazy('${3:redirect_name_url}')\n"
     ],
     "description": "Uma UpdateView"
