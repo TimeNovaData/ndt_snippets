@@ -1,4 +1,4 @@
-# Nova Data snippets
+# ndt snippets
 
 Essa é uma extensão que foi criada com o intuito de acelerar a programação dos desenvolvedores web que usam Python e Django.
 
