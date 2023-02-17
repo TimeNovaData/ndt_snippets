@@ -4,7 +4,7 @@
         "body": [
             "from rest_framework import serializers\n",
 
-            "from ...models import ${1:NomeModel}\n\n",
+            "from ..models import ${1:NomeModel}\n\n",
 
 
             "class ${1:NomeModel}Serializer(serializers.ModelSerializer):",
