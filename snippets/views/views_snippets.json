@@ -90,7 +90,7 @@
     "prefix": "ndt_detail_view",
     "body": [
       "from django.contrib.auth.mixins import LoginRequiredMixin",
-      "from django.views.generic import DetailViewNovaData\n",
+      "from django.views.generic import DetailView\n",
 
       "from ...models import ${1:SuaModel}\n\n",
 
