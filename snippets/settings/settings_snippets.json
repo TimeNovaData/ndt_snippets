@@ -20,8 +20,13 @@
 
       "\t# s3 public media settings",
       "\tPUBLIC_MEDIA_LOCATION = 'media'",
-      "\tMEDIA_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, PUBLIC_MEDIA_LOCATION)",
-      "\tDEFAULT_FILE_STORAGE = '${2:pasta_principal}.storage_backends.PublicMediaStorage'\n"
+      "\tMEDIA_URL = 'https://%s/%s/' % (",
+      "\t\tAWS_S3_CUSTOM_DOMAIN,",
+      "\t\tPUBLIC_MEDIA_LOCATION,",
+      "\t)",
+      "\tDEFAULT_FILE_STORAGE = (",
+      "\t\t'${2:pasta_principal}.storage_backends.PublicMediaStorage,'",
+      "\t)\n"
     ],
     "description": "Config AWS"
   },
