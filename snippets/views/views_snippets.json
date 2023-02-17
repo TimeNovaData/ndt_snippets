@@ -41,11 +41,13 @@
 
         "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
 
-        "\tdef get_success_url(self):",    
-          "\t\tfrom django.http import reverse_lazy",
+        "\tdef get_success_url(self):",
+          "\t\t'''Define a url de redirecionamento ao fim da execução.'''",
+          "\t\tfrom django.http import reverse_lazy\n",
           "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
 
         "\tdef get_context_data(self, **kwargs):",
+          "\t\t'''Informa o contexto que será passado para o template.'''",
           "\t\tcontext = super().get_context_data(**kwargs)\n",
 
           "\t\t\n",
@@ -70,10 +72,12 @@
         "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
 
         "\tdef get_success_url(self):",    
-          "\t\tfrom django.http import reverse_lazy",
+          "\t\t'''Define a url de redirecionamento ao fim da execução.'''",
+          "\t\tfrom django.http import reverse_lazy\n",
           "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
 
         "\tdef get_context_data(self, **kwargs):",
+          "\t\t'''Informa o contexto que será passado para o template.'''",
           "\t\tcontext = super().get_context_data(**kwargs)\n",
           
           "\t\t\n",
@@ -98,6 +102,7 @@
       "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
 
         "\tdef get_context_data(self, **kwargs):",
+          "\t\t'''Informa o contexto que será passado para o template.'''",
           "\t\tcontext = super().get_context_data(**kwargs)\n",
           
           "\t\t\n",
@@ -129,7 +134,8 @@
     "prefix": "ndt_get_context_data",
     "body": [
       "def get_context_data(self, **kwargs):",
-        "\tcontext = super().get_context_data(**kwargs)\n",
+          "\t'''Informa o contexto que será passado para o template.'''",
+          "\tcontext = super().get_context_data(**kwargs)\n",
 
         "\tcontext['${1:campo}'] = ${2:alguma_coisa}\n",
         
@@ -172,7 +178,8 @@
           "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
 
           "\tdef get_context_data(self, **kwargs):",
-            "\t\tcontext = super().get_context_data(**kwargs)\n",
+          "\t\t'''Informa o contexto que será passado para o template.'''",
+          "\t\tcontext = super().get_context_data(**kwargs)\n",
   
             "\t\t\n",
   
@@ -195,15 +202,17 @@
           "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
 
           "\tdef get_context_data(self, **kwargs):",
-            "\t\tcontext = super().get_context_data(**kwargs)\n",
+          "\t\t'''Informa o contexto que será passado para o template.'''",
+          "\t\tcontext = super().get_context_data(**kwargs)\n",
   
             "\t\t\n",
   
             "\t\treturn context\n",
 
-            "\tdef get_success_url(self):",    
-              "\t\tfrom django.http import reverse_lazy",
-              "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
+          "\tdef get_success_url(self):",    
+            "\t\t'''Define a url de redirecionamento ao fim da execução.'''",
+            "\t\tfrom django.http import reverse_lazy\n",
+            "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
 
             "\tdef get_context_data(self, **kwargs):",
               "\t\tcontext = super().get_context_data(**kwargs)\n",
@@ -227,6 +236,7 @@
 
       "@login_required",
       "def $TM_FILENAME_BASE(request):",
+          "\t'''Docstring here.'''",
           "\tdata = json.loads(request.body.decode('utf-8'))\n",
           
           "\t$1\n",
@@ -247,6 +257,7 @@
 
       "@login_required",
       "def $TM_FILENAME_BASE(request):",
+      "\t'''Docstring here.'''",
       "\tcontext = {",
         "\t\t",
       "\t}\n",
@@ -270,6 +281,7 @@
     
       "@login_required",
       "def $TM_FILENAME_BASE(request):",
+        "\t'''Docstring here.'''",
         "\t$1\n",
     
         "\treturn redirect(reverse_lazy('${2:name_da_url}'))\n"
