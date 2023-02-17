@@ -193,11 +193,15 @@
       "from django.contrib.auth.mixins import LoginRequiredMixin",
       "from django.views.generic.edit import UpdateView\n",
 
+      "from ...forms import ${1:SuaModel}Form",
       "from ...models import ${1:SuaModel}\n\n",
 
 
       "class ${1:SuaModel}UpdateView(LoginRequiredMixin, UpdateView):",
-          "\tmodel = ${1:SuaModel}",
+          "\tmodel = ${1:SuaModel}\n",
+
+          "\tform_class = ${1:SuaModel}Form\n",
+
           "\ttemplate_name = '${2:caminho/para/o/template}.html'\n",
 
           "\tdef get_context_data(self, **kwargs):",
@@ -211,14 +215,7 @@
           "\tdef get_success_url(self):",    
             "\t\t'''Define a url de redirecionamento ao fim da execução.'''",
             "\t\tfrom django.http import reverse_lazy\n",
-            "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
-
-            "\tdef get_context_data(self, **kwargs):",
-              "\t\tcontext = super().get_context_data(**kwargs)\n",
-
-              "\t\t\n",
-
-              "\t\treturn context\n"
+            "\t\treturn reverse_lazy('${3:redirect_name_url}')\n"
     ],
     "description": "Uma UpdateView"
   },
