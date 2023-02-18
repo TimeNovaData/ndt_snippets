@@ -26,9 +26,9 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 ### Template tags snippets
 
-| Abreviação       | Descrição              |
-| ---------------- | ---------------------- |
-| ndt_template_tag | Template tag do Django |
+| Abreviação       | Descrição                             |
+| ---------------- | ------------------------------------- |
+| ndt_template_tag | Uma config inicial para template tags |
 
 ### URLs snippets
 

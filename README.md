@@ -134,9 +134,9 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 
 ## Template tags snippets
 
-| Abreviação       | Descrição              |
-| ---------------- | ---------------------- |
-| ndt_template_tag | Template tag do Django |
+| Abreviação       | Descrição                             |
+| ---------------- | ------------------------------------- |
+| ndt_template_tag | Uma config inicial para template tags |
 
 ## URLs snippets
 
