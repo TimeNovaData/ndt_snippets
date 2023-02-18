@@ -261,7 +261,7 @@
       "\treturn render(",
       "\t\trequest,",
       "\t\t'${1:caminho/para/o/template}.html',",
-      "\t\tcontext",
+      "\t\tcontext,",
       "\t)\n"
     ],
     "description": "Uma view"

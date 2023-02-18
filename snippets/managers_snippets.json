@@ -6,13 +6,8 @@
 
 
       "class ${1:SuaModel}Manager(models.Manager):",
-        "\t'''",
-        "\tA classe ${1:SuaModel}Manager serve para realizar as implementações relacionadas",
-        "\ta múltiplos objetos do tipo ${1:SuaModel}Manager no sistema.",
-        "\t'''\n",
         "\tdef exemplo_de_funcao(query):",
-          "\t\t$2\n",
-
+          "\t\t'''Docstring here.'''",
           "\t\treturn query\n"
     ],
     "description": "Um manager"
