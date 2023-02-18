@@ -136,6 +136,7 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 
 | Abreviação       | Descrição                             |
 | ---------------- | ------------------------------------- |
+| ndt_simple_tag   | Uma simple tag                        |
 | ndt_template_tag | Uma config inicial para template tags |
 
 ## URLs snippets

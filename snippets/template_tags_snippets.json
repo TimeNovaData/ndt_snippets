@@ -1,11 +1,22 @@
 {
+  "Uma simple tag": {
+    "prefix": "ndt_simple_tag",
+    "body": [
+      "@register.simple_tag()",
+      "def ${1:nome_template_tag}($2):",
+        "\t'''Docstring here.'''",
+        "\t...\n"
+    ],
+    "description": "Uma simple tag"
+  },
+
   "Uma config inicial para template tags": {
     "prefix": "ndt_template_tag",
     "body": [
       "from django import template",
       "from ..models import ${1:SuaModel}\n",
 
-      "register = template.Library()\n\n"
+      "register = template.Library()\n\n\n"
     ],
     "description": "Uma config inicial para template tags"
   }

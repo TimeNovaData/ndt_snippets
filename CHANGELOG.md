@@ -28,6 +28,7 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 | Abreviação       | Descrição                             |
 | ---------------- | ------------------------------------- |
+| ndt_simple_tag   | Uma simple tag                        |
 | ndt_template_tag | Uma config inicial para template tags |
 
 ### URLs snippets
