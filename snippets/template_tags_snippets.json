@@ -1,0 +1,12 @@
+{
+  "Uma config inicial para template tags": {
+    "prefix": "ndt_template_tag",
+    "body": [
+      "from django import template",
+      "from ..models import ${1:SuaModel}\n",
+
+      "register = template.Library()\n\n"
+    ],
+    "description": "Uma config inicial para template tags"
+  }
+}

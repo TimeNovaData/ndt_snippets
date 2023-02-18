@@ -41,7 +41,7 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 | ndt_router_initial   | Um router inicial   |
 | ndt_router_simples   | Um router simples   |
 
-### Forms snippets
+## Forms snippets
 
 | Abreviação     | Descrição  |
 | -------------- | ---------- |
@@ -86,19 +86,19 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 | ndt_import_user                 | Importação da classe User                      |
 | ndt_import_render               | Importação da função render                    |
 
-### Javascript snippets
+## Javascript snippets
 
 | Abreviação   | Descrição   |
 | ------------ | ----------- |
 | ndt_selector | Um selector |
 
-### Managers snippets
+## Managers snippets
 
 | Abreviação  | Descrição  |
 | ----------- | ---------- |
 | ndt_manager | Um manager |
 
-### Middlewares snippets
+## Middlewares snippets
 
 | Abreviação     | Descrição     |
 | -------------- | ------------- |
@@ -119,7 +119,7 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 | ndt_usuario_criacao             | Usuário de criação                |
 | ndt_usuario_criacao_atualizacao | Usuário de criação e atualização  |
 
-### Settings snippets
+## Settings snippets
 
 | Abreviação | Descrição   |
 | ---------- | ----------- |
@@ -131,6 +131,12 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 | Abreviação           | Descrição           |
 | -------------------- | ------------------- |
 | ndt_signal_post_save | Um signal post_save |
+
+## Template tags snippets
+
+| Abreviação       | Descrição              |
+| ---------------- | ---------------------- |
+| ndt_template_tag | Template tag do Django |
 
 ## URLs snippets
 

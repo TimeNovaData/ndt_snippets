@@ -63,6 +63,10 @@
       },
       {
         "language": "python",
+        "path": "./snippets/template_tags_snippets.json"
+      },
+      {
+        "language": "python",
         "path": "./snippets/urls_snippets.json"
       },
       {

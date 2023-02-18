@@ -24,7 +24,13 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 | ndt_usuario_criacao             | Usuário de criação               |
 | ndt_usuario_criacao_atualizacao | Usuário de criação e atualização |
 
-## URLs snippets
+### Template tags snippets
+
+| Abreviação       | Descrição              |
+| ---------------- | ---------------------- |
+| ndt_template_tag | Template tag do Django |
+
+### URLs snippets
 
 | Abreviação        | Descrição            |
 | ----------------- | -------------------- |
