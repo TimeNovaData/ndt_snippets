@@ -105,17 +105,18 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 
 ## Models snippets
 
-| Abreviação                   | Descrição                         |
-| ---------------------------- | --------------------------------- |
-| ndt_choices                  | CHOICES field                     |
-| ndt_data_atualizacao         | Campo data de atualização         |
-| ndt_data_criacao             | Campo data de criação             |
-| ndt_data_criacao_atualizacao | Campos data criação e atualização |
-| ndt_enviar_email             | Função para enviar um e-mail      |
-| ndt_model                    | Uma model                         |
-| ndt_save                     | Função save                       |
-| ndt_usuario_atualizacao      | Usuário de atualização            |
-| ndt_usuario_criacao          | Usuário de criação                |
+| Abreviação                      | Descrição                         |
+| ------------------------------- | --------------------------------- |
+| ndt_choices                     | CHOICES field                     |
+| ndt_data_atualizacao            | Campo data de atualização         |
+| ndt_data_criacao                | Campo data de criação             |
+| ndt_data_criacao_atualizacao    | Campos data criação e atualização |
+| ndt_enviar_email                | Função para enviar um e-mail      |
+| ndt_model                       | Uma model                         |
+| ndt_save                        | Função save                       |
+| ndt_usuario_atualizacao         | Usuário de atualização            |
+| ndt_usuario_criacao             | Usuário de criação                |
+| ndt_usuario_criacao_atualizacao | Usuário de criação e atualização  |
 
 ### Settings snippets
 

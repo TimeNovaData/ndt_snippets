@@ -135,5 +135,28 @@
       ")\n\n"
     ],
     "description": "Usuário de criação"
+  },
+
+  "Usuário de criação e atualização": {
+    "prefix": "ndt_usuario_criacao_atualizacao",
+    "body": [
+      "usuario_criacao = models.ForeignKey(",
+        "\tUser,",
+        "\ton_delete=models.SET_NULL,",
+        "\tverbose_name='Usuário de criação',",
+        "\tblank=True,",
+        "\tnull=True,",
+      ")\n",
+
+      "usuario_atualizacao = models.ForeignKey(",
+        "\tUser,",
+        "\trelated_name='%(class)s_requests_modified',",
+        "\tverbose_name='Usuário de atualização',",
+        "\ton_delete=models.SET_NULL,",
+        "\tblank=True,",
+        "\tnull=True,",
+      ")\n\n"
+    ],
+    "description": "Usuário de criação e atualização"
   }
 }
