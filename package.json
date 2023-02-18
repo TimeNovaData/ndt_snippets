@@ -19,55 +19,55 @@
       },
       {
         "language": "python",
-        "path": "./snippets/admin/admin_snippets.json"
+        "path": "./snippets/admin_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/api/api_snippets.json"
+        "path": "./snippets/api_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/forms/forms_snippets.json"
+        "path": "./snippets/forms_snippets.json"
       },
       {
         "language": "html",
-        "path": "./snippets/html/html_snippets.json"
+        "path": "./snippets/html_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/imports/imports_snippets.json"
+        "path": "./snippets/imports_snippets.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/javascript/javascript_snippets.json"
+        "path": "./snippets/javascript_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/managers/managers_snippets.json"
+        "path": "./snippets/managers_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/middlewares/middlewares_snippets.json"
+        "path": "./snippets/middlewares_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/models/models_snippets.json"
+        "path": "./snippets/models_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/settings/settings_snippets.json"
+        "path": "./snippets/settings_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/signals/signals_snippets.json"
+        "path": "./snippets/signals_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/urls/urls_snippets.json"
+        "path": "./snippets/urls_snippets.json"
       },
       {
         "language": "python",
-        "path": "./snippets/views/views_snippets.json"
+        "path": "./snippets/views_snippets.json"
       }
     ]
   }
