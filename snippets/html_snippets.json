@@ -140,6 +140,14 @@
 		"description": "Load do Django"
 	},
 	
+	"Template tag do Django": {
+		"prefix": "ndt_template_tag",
+		"body": [
+			"{% ${1:nome_template_tag} as ${2:nome_variavel} %}"
+		],
+		"description": "Template tag do Django"
+	},
+	
 	"Url do Django": {
 		"prefix": "ndt_url",
 		"body": [

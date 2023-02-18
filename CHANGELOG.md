@@ -4,6 +4,12 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 ## [0.0.8]
 
+### HTML snippets
+
+| Abreviação       | Descrição              |
+| ---------------- | ---------------------- |
+| ndt_template_tag | Template tag do Django |
+
 ### Middlewares snippets
 
 | Abreviação     | Descrição     |
@@ -29,7 +35,8 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 1. Mudamos nosso nome para ndt snippets!
 2. Para criar um snippet, basta digitar ndt_alguma coisa e apertar tab!
-3. Ajustes e bugs corrigidos!
+3. Nossas funções agora possuem documentação!
+4. Novos ajustes e correções corrigidos!
 
 ## [0.0.7]
 

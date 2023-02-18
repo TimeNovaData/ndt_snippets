@@ -67,6 +67,7 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 | ndt_endif        | Endif                          |
 | ndt_include      | Include                        |
 | ndt_load         | Load do Django                 |
+| ndt_template_tag | Template tag do Django         |
 | ndt_url          | Url                            |
 | ndt_urlparam     | Url com parâmetro              |
 
