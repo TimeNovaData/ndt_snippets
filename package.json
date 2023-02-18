@@ -47,6 +47,10 @@
       },
       {
         "language": "python",
+        "path": "./snippets/middlewares/middlewares_snippets.json"
+      },
+      {
+        "language": "python",
         "path": "./snippets/models/models_snippets.json"
       },
       {

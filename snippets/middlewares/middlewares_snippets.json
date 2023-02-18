@@ -1,0 +1,21 @@
+{
+    "Middleware": {
+      "prefix": "ndt_middleware",
+      "body": [
+        "class ModelAndAppNameMiddleware(object):",
+            "\tdef __init__(self, get_response):",
+                "\t\t'''Método para executarmos ações ao iniciar a classe.'''",
+                "\t\tself.get_response = get_response\n",
+
+            "\tdef __call__(self, request):",
+                "\t\t'''Função padrão que sempre é chamada.'''",
+                "\t\tresponse = self.get_response(request)",
+                "\t\treturn response\n",
+
+            "\tdef process_view(self, response, view_func, view_args, view_kwargs):",
+                "\t\t'''Função para realizarmos as ações desejadas.'''",
+                "\t\t...\n"
+      ],
+      "description": "Middleware"
+    }
+  }
