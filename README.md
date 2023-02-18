@@ -114,6 +114,7 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 | ndt_enviar_email             | Função para enviar um e-mail      |
 | ndt_model                    | Uma model                         |
 | ndt_save                     | Função save                       |
+| ndt_usuario_atualizacao      | Usuário de atualização            |
 | ndt_usuario_criacao          | Usuário de criação                |
 
 ### Settings snippets

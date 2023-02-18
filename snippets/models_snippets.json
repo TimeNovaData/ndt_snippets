@@ -108,6 +108,21 @@
     "description": "Função save"
   },
 
+  "Usuário de atualização": {
+    "prefix": "ndt_usuario_atualizacao",
+    "body": [
+      "usuario_atualizacao = models.ForeignKey(",
+        "\tUser,",
+        "\trelated_name='%(class)s_requests_modified',",
+        "\tverbose_name='Usuário de atualização',",
+        "\ton_delete=models.SET_NULL,",
+        "\tblank=True,",
+        "\tnull=True,",
+      ")\n\n"
+    ],
+    "description": "Usuário de atualização"
+  },
+
   "Usuário de criação": {
     "prefix": "ndt_usuario_criacao",
     "body": [

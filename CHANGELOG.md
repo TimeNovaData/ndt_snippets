@@ -12,9 +12,10 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 ### Models snippets
 
-| Abreviação          | Descrição          |
-| ------------------- | ------------------ |
-| ndt_usuario_criacao | Usuário de criação |
+| Abreviação              | Descrição              |
+| ----------------------- | ---------------------- |
+| ndt_usuario_atualizacao | Usuário de atualização |
+| ndt_usuario_criacao     | Usuário de criação     |
 
 ## [0.0.8]
 
