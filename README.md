@@ -12,13 +12,14 @@ Basta digitar a abrevição estando dentro de um arquivo com a linguagem correta
 um tab! Te daremos todo um esqueleto de alguma coisa.
 
 "Mas que coisa é essa?" vocẽ pode se perguntar, bem, aqui temos um exemplo e logo
-em seguida temos todas as funcionalidades contidas na nossa extensão, dá uma conferida para ver todas as possibilidades! \o/
+em seguida todas as funcionalidades contidas na nossa extensão, dá uma conferida para ver todas as possibilidades! \o/
 
 <img src="https://github.com/TimeNovaData/ndt_snippets/raw/master/static/videos/como_usar.gif" alt="Como usar">
 
 # Funcionalidades
 
-Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensão:
+Hoje possuímos um total de xx snippets!
+Veja abaixo uma lista completa atualmente presente na extensão:
 
 ## Admin snippets
 
@@ -96,6 +97,12 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | ----------- | ---------- |
 | ndt_manager | Um manager |
 
+### Middlewares snippets
+
+| Abreviação     | Descrição     |
+| -------------- | ------------- |
+| ndt_middleware | Um middleware |
+
 ## Models snippets
 
 | Abreviação                   | Descrição                         |
@@ -107,6 +114,7 @@ Veja abaixo uma lista de todos os snippets atualmente contidos em nossa extensã
 | ndt_enviar_email             | Função para enviar um e-mail      |
 | ndt_model                    | Uma model                         |
 | ndt_save                     | Função save                       |
+| ndt_usuario_criacao          | Usuário de criação                |
 
 ### Settings snippets
 

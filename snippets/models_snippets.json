@@ -106,5 +106,19 @@
       "\tsuper(${1:NomeDaSuaModel}, self).save(*args, **kwargs)\n"
     ],
     "description": "Função save"
+  },
+
+  "Usuário de criação": {
+    "prefix": "ndt_usuario_criacao",
+    "body": [
+      "usuario_criacao = models.ForeignKey(",
+        "\tUser,",
+        "\ton_delete=models.SET_NULL,",
+        "\tverbose_name='Usuário de criação',",
+        "\tblank=True,",
+        "\tnull=True,",
+      ")\n\n"
+    ],
+    "description": "Usuário de criação"
   }
 }

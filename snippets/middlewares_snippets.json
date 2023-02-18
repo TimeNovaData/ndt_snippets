@@ -1,5 +1,5 @@
 {
-    "Middleware": {
+    "Um middleware": {
       "prefix": "ndt_middleware",
       "body": [
         "class ModelAndAppNameMiddleware(object):",
@@ -16,6 +16,6 @@
                 "\t\t'''Função para realizarmos as ações desejadas.'''",
                 "\t\t...\n"
       ],
-      "description": "Middleware"
+      "description": "Um middleware"
     }
 }
