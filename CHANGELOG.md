@@ -18,6 +18,12 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 | ndt_usuario_criacao             | Usuário de criação               |
 | ndt_usuario_criacao_atualizacao | Usuário de criação e atualização |
 
+## URLs snippets
+
+| Abreviação        | Descrição         |
+| ----------------- | ----------------- |
+| ndt_path_simples2 | Um path simples 2 |
+
 ## [0.0.8]
 
 1. Mudamos nosso nome para ndt snippets!

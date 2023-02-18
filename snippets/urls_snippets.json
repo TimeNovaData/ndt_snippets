@@ -19,6 +19,12 @@
     "description": "Um path simples"
   },
 
+  "Um path simples 2": {
+    "prefix": "ndt_path_simples2",
+    "body": ["path('${1/[\\_]/-/g}/', views.${2:nome_view}, name='${2:nome_view}'),"],
+    "description": "Um path simples 2"
+  },
+
   "Um urls.py": {
     "prefix": "ndt_urls",
     "body": [
