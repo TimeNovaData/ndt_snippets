@@ -133,13 +133,14 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 
 ## URLs snippets
 
-| Abreviação        | Descrição           |
-| ----------------- | ------------------- |
-| ndt_path_classe   | Um path com classe  |
-| ndt_path_include  | Um path com include |
-| ndt_path_simples  | Um path simples     |
-| ndt_path_simples2 | Um path simples 2   |
-| ndt_urls          | Um urls.py          |
+| Abreviação        | Descrição            |
+| ----------------- | -------------------- |
+| ndt_path_classe   | Um path com classe   |
+| ndt_path_classe2  | Um path com classe 2 |
+| ndt_path_include  | Um path com include  |
+| ndt_path_simples  | Um path simples      |
+| ndt_path_simples2 | Um path simples 2    |
+| ndt_urls          | Um urls.py           |
 
 ## Views snippets
 

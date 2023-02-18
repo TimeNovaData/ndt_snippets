@@ -20,9 +20,10 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 ## URLs snippets
 
-| Abreviação        | Descrição         |
-| ----------------- | ----------------- |
-| ndt_path_simples2 | Um path simples 2 |
+| Abreviação        | Descrição            |
+| ----------------- | -------------------- |
+| ndt_path_classe2  | Um path com classe 2 |
+| ndt_path_simples2 | Um path simples 2    |
 
 ## [0.0.8]
 

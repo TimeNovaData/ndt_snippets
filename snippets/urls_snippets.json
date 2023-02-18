@@ -7,6 +7,14 @@
     "description": "Um path com classe"
   },
 
+  "Um path com classe 2": {
+    "prefix": "ndt_path_classe2",
+    "body": [
+      "path('${1/[\\_]/-/g}/', views.${2:NomeClasse}.as_view(), name='${3:nome_view}'),"
+    ],
+    "description": "Um path com classe 2"
+  },
+
   "Um path com include": {
     "prefix": "ndt_path_include",
     "body": ["path('${1:nome-app}/', include('${2:nome_app}.urls')),"],
