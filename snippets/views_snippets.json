@@ -42,8 +42,8 @@
 
         "\tdef get_success_url(self):",
           "\t\t'''Define a url de redirecionamento ao fim da execução.'''",
-          "\t\tfrom django.urls import reverse_lazy\n",
-          "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
+          "\t\tfrom novadata_utils.redirect import reverse_lazy_plus\n",
+          "\t\treturn reverse_lazy_plus('${3:redirect_name_url}')\n",
 
         "\tdef get_context_data(self, **kwargs):",
           "\t\t'''Informa o contexto que será passado para o template.'''",
@@ -72,8 +72,8 @@
 
         "\tdef get_success_url(self):",    
           "\t\t'''Define a url de redirecionamento ao fim da execução.'''",
-          "\t\tfrom django.urls import reverse_lazy\n",
-          "\t\treturn reverse_lazy('${3:redirect_name_url}')\n",
+          "\t\tfrom novadata_utils.redirect import reverse_lazy_plus\n",
+          "\t\treturn reverse_lazy_plus('${3:redirect_name_url}')\n",
 
         "\tdef get_context_data(self, **kwargs):",
           "\t\t'''Informa o contexto que será passado para o template.'''",
@@ -214,8 +214,8 @@
 
           "\tdef get_success_url(self):",    
             "\t\t'''Define a url de redirecionamento ao fim da execução.'''",
-            "\t\tfrom django.urls import reverse_lazy\n",
-            "\t\treturn reverse_lazy('${3:redirect_name_url}')\n"
+            "\t\tfrom novadata_utils.redirect import reverse_lazy_plus\n",
+            "\t\treturn reverse_lazy_plus('${3:redirect_name_url}')\n"
     ],
     "description": "Uma UpdateView"
   },
@@ -272,7 +272,7 @@
     "body": [
       "from django.contrib.auth.decorators import login_required",
       "from django.shortcuts import redirect",
-      "from django.urls import reverse_lazy\n\n",
+      "from novadata_utils.redirect import reverse_lazy_plus\n\n",
     
     
       "@login_required",
@@ -280,7 +280,7 @@
         "\t'''Docstring here.'''",
         "\t$1\n",
     
-        "\treturn redirect(reverse_lazy('${2:name_da_url}'))\n"
+        "\treturn reverse_lazy_plus('${2:name_da_url}')\n"
     ],
     "description": "Uma view com redirect"
   }
