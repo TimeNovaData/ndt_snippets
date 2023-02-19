@@ -112,7 +112,7 @@
   },
 
   "Consulta filter": {
-    "prefix": "ndt_filter",
+    "prefix": "ndt_objects_filter",
     "body": [
       "${1:SeuObjeto}.objects.filter(",
         "\t${2:campo=alguma_coisa}",
@@ -144,7 +144,7 @@
   },
 
   "Consulta filter com select_related": {
-    "prefix": "ndt_filter_select_related",
+    "prefix": "ndt_objects_filter_select_related",
     "body": [
       "${1:SeuObjeto}.objects.select_related(",
         "\t'${2:campos_fk_que_serao_usados}",

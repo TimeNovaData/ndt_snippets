@@ -153,24 +153,24 @@ Veja abaixo uma lista completa atualmente presente na extensão:
 
 ## Views snippets
 
-| Abreviação                | Descrição                          |
-| ------------------------- | ---------------------------------- |
-| ndt_all                   | Consulta all                       |
-| ndt_args                  | Args                               |
-| ndt_args_kwargs           | Args kwargs                        |
-| ndt_create_view           | Uma CreateView                     |
-| ndt_delete_view           | Uma DeleteView                     |
-| ndt_detail_view           | Uma DetailView                     |
-| ndt_filter                | Consulta filter                    |
-| ndt_filter_select_related | Consulta filter com select_related |
-| ndt_get                   | Consulta get                       |
-| ndt_get_context_data      | Função get context data            |
-| ndt_get_select_related    | Consulta get com select_related    |
-| ndt_list_view             | Uma ListView                       |
-| ndt_update_view           | Uma UpdateView                     |
-| ndt_view_json             | Uma view com retorno json          |
-| ndt_view                  | Uma view                           |
-| ndt_view_redirect         | Uma view com redirect              |
+| Abreviação                        | Descrição                          |
+| --------------------------------- | ---------------------------------- |
+| ndt_all                           | Consulta all                       |
+| ndt_args                          | Args                               |
+| ndt_args_kwargs                   | Args kwargs                        |
+| ndt_create_view                   | Uma CreateView                     |
+| ndt_delete_view                   | Uma DeleteView                     |
+| ndt_detail_view                   | Uma DetailView                     |
+| ndt_objects_filter                | Consulta filter                    |
+| ndt_objects_filter_select_related | Consulta filter com select_related |
+| ndt_get                           | Consulta get                       |
+| ndt_get_context_data              | Função get context data            |
+| ndt_get_select_related            | Consulta get com select_related    |
+| ndt_list_view                     | Uma ListView                       |
+| ndt_update_view                   | Uma UpdateView                     |
+| ndt_view_json                     | Uma view com retorno json          |
+| ndt_view                          | Uma view                           |
+| ndt_view_redirect                 | Uma view com redirect              |
 
 ## Requirements
 

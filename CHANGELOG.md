@@ -173,12 +173,12 @@ Acompanhe nossas funcionalidades com o passar do tempo!
 
 ### Views snippets
 
-| Abreviação                | Descrição                          |
-| ------------------------- | ---------------------------------- |
-| ndt_all                   | Consulta all                       |
-| ndt_filter                | Consulta filter                    |
-| ndt_get                   | Consulta get                       |
-| ndt_filter_select_related | Consulta filter com select_related |
-| ndt_get_select_related    | Consulta get com select_related    |
-| ndt_view                  | Uma view (upgrade)                 |
-| ndt_view_redirect         | Uma view com redirect              |
+| Abreviação                        | Descrição                          |
+| --------------------------------- | ---------------------------------- |
+| ndt_all                           | Consulta all                       |
+| ndt_objects_filter                | Consulta filter                    |
+| ndt_get                           | Consulta get                       |
+| ndt_objects_filter_select_related | Consulta filter com select_related |
+| ndt_get_select_related            | Consulta get com select_related    |
+| ndt_view                          | Uma view (upgrade)                 |
+| ndt_view_redirect                 | Uma view com redirect              |
