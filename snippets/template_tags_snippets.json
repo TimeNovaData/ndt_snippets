@@ -1,4 +1,15 @@
 {
+  "Um filter": {
+    "prefix": "ndt_filter",
+    "body": [
+      "@register.filter",
+      "def ${1:nome_filter}($2):",
+        "\t'''Docstring here.'''",
+        "\t...\n"
+    ],
+    "description": "Um filter"
+  },
+
   "Uma simple tag": {
     "prefix": "ndt_simple_tag",
     "body": [
